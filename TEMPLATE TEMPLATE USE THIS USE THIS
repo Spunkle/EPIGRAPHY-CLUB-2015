@@ -5,7 +5,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><!-- Enter the language/accession number. For example, NY.NY.CU.Butl.L.401 (Latin) or NY.NY.CU.Butl.G.28 (Greek)--></title>
+                <title><!-- Enter the language/accession number. For example, NY.NY.CU.Butl.L.401 (for a Latin inscription) or NY.NY.CU.Butl.G.28 (for a Greek inscription)--></title>
                 <editor><!-- Write your full name here --></editor>
             </titleStmt>
             <publicationStmt>
