@@ -47,7 +47,7 @@
                            <dimensions type="surface" unit="cm">
                               <width>36.4</width>
                               <height>32.2</height>
-                              <depth>2</depth>
+                              <depth>2.0</depth>
                            </dimensions></p>
                         </support>
                         <condition ana="#fragments.contig">
