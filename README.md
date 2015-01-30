@@ -2,7 +2,8 @@
 _A volunteer group of students creating Leiden-compliant, EpiDoc editions of the unpublished Latin &amp; Greek inscriptions at Columbia's Rare Book &amp; Manuscript Library._
 
 ##Workflow
-_(Adapted from: https://help.github.com/articles/github-flow-in-the-browser/ <-- Follow the steps at each point.)_
+`Adapted from: https://help.github.com/articles/github-flow-in-the-browser/ <-- Follow the steps at each point.`
+
 1. A new file is uploaded to the Github repository from the DropBox folder, and given the same name.
 2. Person (A) creates a new branch (named after that file and the iteration: e.g. the first attempt to branch #422 would be "icolbutler-422-1"; the 2nd attempt to branch #26 is "icolbutler-26-2"). **Each file may only be branched from the master by ONE collaborator at a time.**
 3. (A) marks up the edition, saving each commit with a clear and intuitive title and description, and flagging issues for discussion with the group.
