@@ -1,0 +1,140 @@
+<?oxygen
+   RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NY.NY.CU.Butl.L.422</title>
+            <editor>Joe Sheppard</editor>
+            <editor>Stephen Anthony LaMonica</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Columbia University</authority>
+            <idno type="filename">icolbutler-422</idno>
+            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.422">NY.NY.CU.Butl.L.422</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Columbia University</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0
+                     Unported, License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <region>NY</region>
+                  <settlement>NY</settlement>
+                  <institution>CU</institution>
+                  <repository>Butl</repository>
+                  <idno>422</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem class="#funerary.epitaph">
+                     <p>Epitaph of Valerius Crescentinus</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#stone.marble">
+                        <support>
+                           <p><seg type="material">marble</seg>
+                           <seg type="form">broken slab</seg>
+                           <dimensions type="surface" unit="cm">
+                              <width>36.4</width>
+                              <height>32.2</height>
+                              <depth>2</depth>
+                           </dimensions></p>
+                        </support>
+                        <condition ana="#fragments.contig">
+                           <p>The slab is broken vertically down the middle and has been cemented back together then set in plaster and a wooden frame. Smaller cracks permeate around the edges, the most prominent being near the top a few inches to the right of the larger break. The top, right, and bottom edges show signs of wear and are chipped away in places, but are roughly straight. The bottom edge may perhaps be broken but no text is missing. Running along the left edge is a straight lip, ca. 0.1 cm. raised and ca. 1.5 cm wide. This was not polished smooth, however, and it is unclear whether it was raised higher before being broken off, it is simply all that remains of a border missing on the other sides, or the slab was possibly reused and the text added later.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="6">
+                           <p>First line centered, with the usual heading. Second line begins flush left, .5 cm from the raised edge, with each line thereafter increasingly indented. Line 3 ends abrubtly, with line 4 extending beyond it almost flush with the final letter of line 1. Line 4 and 5 are nearly center again.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="#impressed.inscribed.chiseled">
+                     <p>The letters are thinly inscribed, with flourishes given to many serifs. The serifs at the bottom of the vertical strokes fork downwards, and most strokes end in a horizontal serif at their base or at the apex. The crossbar of the T is longer on the righthand side and curves upwards. On the D, E, R, and F the top (and bottom when applicable) horizontal bar(s) extend beyond the stem. The leg of the R flairs outward and the tail of the L extends down on the left hand side beyond the stem and up on the right hand side with a slight curve. The first line is ca. 3 cm in both height and width. The second line begins with letters ca. 3 cm tall and no greater than 2 cm. wide, but the text gets thinner as the hand goes right, resulting in a width more consitently 1 or 1.5 cm wide. The next three lines, including the abbreviation B M F, are mostly ca. 2.5 cm high and ca. 1.5 wide.</p>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote>
+                        <p>There are interpuncts at various places.</p>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary></summary>
+                  <origin>
+                     <origDate notBefore="0001" notAfter="0200">First or second century CE</origDate>
+                     <origPlace type="location">Italy</origPlace><!-- Not sure about this, carried over from Joe's drafts.  Also mentioned the Olcott notebooks, but I could not find a reference to it in there. -->
+                  </origin>
+                  <provenance type="observed" notAfter="2011-09-01">
+                     <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <listBibl>
+               <bibl>
+                  <ptr type="rest-of-bibl" target="#unpub"/>
+                  <biblScope type="item"/>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include
+            href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from
+            inital spreadsheet</change>
+         <change when="2012-12-05T13:04:07.333-03:00" who="JS">tried marking up this info!</change>
+         <change when="2014-10-03" who="SAL">Edited information and code, added metadata fixed dimensions and added additional info to the hand and object descriptions.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+      <surface>
+         <desc/>
+            <graphic url="#NY.NY.CU.Butl.L.422.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+         <div type="textpart" subtype="dis_manibus">
+            <ab>
+              <lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan><g type="interpunct"/><expan><abbr>M</abbr><ex>anibus</ex></expan>
+            </ab>
+         </div>
+         <div type="textpart" subtype="body">
+            <ab>
+                <lb n="2"/><persName><name type="gentilicium" key="Valeria">Valeria</name> <name type="cognomen" key="Crescentina">Crescen
+                <lb n="3" break="no"/>tina</name></persName><g type="interpunct"/><persName><name type="gentilicium" key="Valerius">Valerio</name>
+                <lb n="4"/><name type="cognomen" key="Crescentinus">Crescentino</name></persName><g type="interpunct"/>
+                <lb n="5"/>fratri<g type="interpunct"/>
+                <lb n="6"/> <expan><abbr>B</abbr><ex>ene</ex></expan><g type="interpunct"/><expan><abbr>M</abbr><ex>erenti</ex></expan><g type="interpunct"/><expan><abbr>F</abbr><ex>ecit</ex></expan>
+            </ab>
+         </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>To the Shades of the Dead. Valeria Crescentina made this for her well-deserving brother, Valerius Crescentinus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
