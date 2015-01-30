@@ -1,0 +1,146 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.424</title>
+                <editor>Joe Sheppard</editor>
+                <editor>Elizabeth Heintges</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-424</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.424">NY.NY.CU.Butl.L.424</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2014 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>424</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/>
+                        <msItem class="#funerary.epitaph">
+                            <p>epitaph of the husband of Flavia Nica</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#tablet">
+                            <supportDesc ana="#metal.lead">
+                                <support>
+                                    <p>
+                                        <seg type="material">lead</seg>
+                                        <seg type="form">broken tablet</seg>
+                                    </p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>10.0</height>
+                                        <width>27.0</width>
+                                        <depth>0.2</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p>It is difficult to tell whether or not any sides of the support are preserved. Two holes in the middle of the support have created lacunae in the text, and the text seems to be broken off at the beginning. Many letters are either worn or have chipped off.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="12">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#protruding.molded">
+                            <handNote>Shallow letters without serifs protrude from the surface and appear to have molded at the time when the lead was originally poured.</handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>Entered Columbia's holdings by March 1901, although full provenance is unknown.</summary>
+                        <origin>
+                            <origPlace type="location">Unknown</origPlace>
+                            <origDate notBefore="0069" notAfter="0100">Flavian, late-1st century CE</origDate>
+                        </origin>
+                        <provenance type="observed" subtype="recorded" notAfter="1901-03-31">
+                            <ab>Recorded as being in the possession of the Latin department in <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly"/><title>The Columbia University Quarterly</title>, <date>March 1901</date>, pp.<biblScope type="pp">189</biblScope></bibl>.</ab>
+                        </provenance>
+                        <provenance type="observed" notAfter="2011-09-01">
+                            <ab>Identified in the Butler library collection not later than 1 September 2011.</ab>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates/>
+                    </additional>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#CIL_VI"/>
+                        <biblScope type="item">8438</biblScope>
+                        <note>Parts of the text of this lead tablet are very similar to the stone funerary tablet CIL 6.8438. When combined with the unusual medium and production, i.e. a lead funeral tablet with letters in relief, this similarity suggests an unusual provenance for the object, perhaps as a counterfeit (or a kind of draft model), cf. NY.NY.CU.Butl.L.444.</note>
+                    </bibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#CU_Quarterly"/>
+                        <biblScope type="pp">190</biblScope>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change when="2013-05-22" who="JS">translated initial data to EpiDoc</change>
+            <change when="2014-09-19" who="EMH">edited initial draft, with suggested comments</change>
+            <change when="2014-09-26" who="JS">proofread again mutatis mutandis</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+     <graphic url=""/>
+        <surface>
+            <desc/>
+                <graphic url="NY.NY.CU.Butl.L.424.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+                  <gap reason="lost" extent="unknown" unit="line"/>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/><supplied reason="undefined" evidence="parallel">tab</supplied>
+                  <lb n="2" break="no"/><unclear reason="damage" cert="high">ul</unclear><expan><abbr>arior</abbr><ex>um</ex></expan>
+                  <lb n="3"/><expan><abbr>ration</abbr><ex>is</ex></expan>
+                  <lb n="4"/><expan><abbr>hereditat</abbr><ex>ium</ex></expan>
+                  <lb n="5"/><persName><name type="cognomen" key="Caesar"><expan><abbr>C<hi rend="ligature">ae</hi>s</abbr><ex>aris</ex></expan></name> <name type="cognomen" key="Vespasianus"><expan><abbr>Vesp</abbr><ex>asiani</ex></expan></name></persName>.
+                  <lb n="6"/><persName><name type="gentilicium" key="Flavia">Flavi<unclear cert="high" reason="damage">a</unclear></name> <name type="cognomen" key="Nica">Ni
+                  <lb n="7" break="no"/>ca</name></persName> <unclear cert="high" reason="damage">c</unclear><supplied reason="undefined" evidence="parallel">on</supplied>i
+                  <lb n="8" break="no"/>u<supplied reason="omitted" cert="high">n</supplied>x <supplied reason="undefined" evidence="parallel">cum</supplied>
+                  <lb n="9"/>qu<supplied reason="undefined" evidence="parallel">o</supplied> v<supplied reason="undefined" evidence="parallel">ix</supplied>i<unclear cert="high" reason="damage">t</unclear>
+                  <lb n="10"/><expan><abbr>ann</abbr><ex>is</ex></expan> <num value="17">XV<unclear cert="high" reason="damage">II</unclear></num>
+                  <lb n="11"/>sine <supplied reason="undefined" evidence="parallel">ul</supplied>l<unclear cert="high" reason="damage">a</unclear>
+                  <lb n="12"/>offensa
+                  <lb n="13"/><expan><abbr>m</abbr><ex>emoriam</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>.
+            </ab>
+         </div>
+            <div type="translation" xml:lang="en">
+                <ab>...of the archives for the inheritances account of the emperor Vespasian, with whom his wife Flavia Nica lived for 17 years without any resentment. She set up this memorial.</ab>
+            </div>
+        </body>
+    </text>
+</TEI>
