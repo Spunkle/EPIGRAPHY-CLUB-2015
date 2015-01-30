@@ -33,7 +33,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                     <msContents>
                         <textLang mainLang="la"/>
                         <msItem class="#funerary.epitaph">
-                            <p>epitaph of the husband of Flavia Nica</p>
+                            <p>Epitaph of the husband of Flavia Nica</p>
                         </msItem>
                     </msContents>
                     <physDesc>
