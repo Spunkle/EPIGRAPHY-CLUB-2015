@@ -3,6 +3,7 @@ _A volunteer group of students creating Leiden-compliant, EpiDoc editions of the
 
 ##Workflow
 `Adapted from: https://help.github.com/articles/github-flow-in-the-browser/ <-- Follow the steps at each point.`
+
 1. Create a new branch (let's say, named after that file and the iteration: e.g. the first attempt to branch #422 would be "icolbutler-422-1"; the 2nd attempt to branch #26 is "icolbutler-26-2"). **NEVER edit the master branch!**
 2. Either a) create a new file in the Github repository, pasting in the xml already in the DropBox folder and assigning the same name; OR b) work on a file already in the repository.  **Check to see what your colleagues already have branched. We want to avoid TWO branches working on the same file, otherwise it will be hard to merge BOTH sets of changes with the master.**
 3. Mark up your edition, making regular commits with clear and intuitive titles and descriptions. Flag queries as "Issues" to discuss with the group, but try to be specific and goal-oriented.
