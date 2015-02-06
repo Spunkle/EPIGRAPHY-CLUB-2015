@@ -35,74 +35,63 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc ana="#slab"/>
-                            <supportDesc ana="#stone.marble"/>
-                                <support>
-                                    <p>
-                                    <seg type="material">marble</seg> 
-                                    <seg type="form">stone slab</seg>
-                                    </p>
-                                    <dimensions type="surface" unit="cm">
-                                        <width>24.7</width>
-                                        <height>16.6</height>
-                                        <depth>2.6</depth>
-                                    </dimensions>
-                                </support>
-                                <condition ana="#fragments.contig"/>
-                                    <p>Continuous piece, broken along the top and right edges.  Bottom edge is chipped and worn but there is no indication of missing text.</p>
-                                </condition>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout columns="1" writtenLines="5">
-                                    <p>Five full lines of verse text appear.  Remains of at least one previous line above the extant writing.  Space for additional text remains below.</p>
-                                </layout>
-                            </layoutDesc>
+                        <objectDesc ana="#slab">
+                        <supportDesc ana="#stone.marble">
+                        <support>
+                            <p>
+                                <seg type="material">marble</seg> 
+                                <seg type="form">stone slab</seg>
+                            </p>
+                            <dimensions type="surface" unit="cm">
+                                <width>24.7</width>
+                                <height>16.6</height>
+                                <depth>2.6</depth>
+                            </dimensions>
+                        </support>
+                        <condition ana="#fragments.contig">
+                        <p>Continuous piece, broken along the top and right edges.  Bottom edge is chipped and worn but there is no indication of missing text.</p>
+                        </condition>
+                        </supportDesc>
+                        <layoutDesc>
+                            <layout columns="1" writtenLines="6">
+                                <p>Five full lines of verse text appear.  Remains of at least one previous line above the extant writing.  Space for additional text remains below.</p>
+                            </layout>
+                        </layoutDesc>
                         </objectDesc>
-                        <handDesc ana="#impressed.inscribed.chiseled"/>
-                            <height unit="cm">2</height>
-                            <width unit="cm">1</width>
-                            <handNote ana="blank"><p>Shaded with small serifs.  Faint cross exists on the lambda in line 2, which may be a mistake after the preceeding alpha, lambda in line 3 shows no such mistake. Tight spacing between characters is consistent except for the mu in line 4, which has significant space between it and the preceededing heta and slightly more than average distance from the following epsilon.  This may be due to the style which consists of two vertical stems that connect via a bowed cross and two similarly curved serifs on the bottom of both stems.  While the style is similar to the mu in line 1, the space between the letters in line 1 is consistant with the rest of the inscription. The omega in line 3 is represented by a large version of a lowercase figure rather than the standard capitalized form of the letter.  The sigmas are represented by an uppercase C.
-                            </handNote>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                        <handNote ana="blank"><p>Shaded with small serifs.  Faint cross exists on the lambda in line 2, which may be a mistake after the preceeding alpha, lambda in line 3 shows no such mistake. Tight spacing between characters is consistent except for the mu in line 4, which has significant space between it and the preceededing heta and slightly more than average distance from the following epsilon.  This may be due to the style which consists of two vertical stems that connect via a bowed cross and two similarly curved serifs on the bottom of both stems.  While the style is similar to the mu in line 1, the space between the letters in line 1 is consistant with the rest of the inscription. The omega in line 3 is represented by a large version of a lowercase figure rather than the standard capitalized form of the letter.  The sigmas are represented by an uppercase C.</p>
+                        <height unit="cm">2</height>
+                        <width unit="cm">1</width>
+                        </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote ana="#blank">
-                                <p>Interpuncts located after ΜΟΙ in line 1, ΛΩΝ in line 3, and ΤΑ in line 5 are likely verse divisions.  Marks after the ΤΕ in line 3 and ΜΕ in line 4 appear to be damage.  Incised alignment lines visible and another set exist below the extant text, possibly by the mason overestimating the amount of space that would be needed.</p>
+                                <p>Interpuncts located after ΜΟΙ in line 1, ΛΩΝ in line 3, and ΤΑ in line 5 are likely verse divisions.  Marks after the ΤΕ in line 3 and ΜΕ in line 4 appear to be damage.  Incised alignment lines visible and another set exist below the extant text, possibly by the mason overestimating the amount of space that would be needed. Utilizes lunate sigmas.</p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
-                    <history><summary>George N. Olcott states to have purchased the stones from a mason named Gaetano Bellini, who secured them from the workmen.  They were excavated along the Via Ostiense near the basilica of S. Paolo fuori le Mura.</summary>
+                    <history>
+                   <summary>George N. Olcott records purchasing this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
                   <origin>
                      <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
                      <origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
-                     <origDate notBefore="" notAfter="">first century CE</origDate>
+                     <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
                   </origin>
-                  <provenance type="observed" notAfter="1899-12-31">
-                     <ab>In a handwritten document in Butler library <bibl><ptr  target=""></ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
+                  <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                     <ab>In <bibl><ptr  target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
                   </provenance>
-                  <provenance type="observed" notAfter="2011-09-01">
+                  <provenance type="observed" subtype="seen" notAfter="2011-09-01">
                      <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
-                  </provenance> 
-                  </history>
-                  <summary>Nothing known of the inscription prior to its discovery along the Via Ostiense, has remained in Butler Library since its acquisition by Columbia.</summary>
-                        </provenance>
+                  </provenance>
                     </history>
-                    <additional>
-                        <surrogates/>
-                    </additional>
+                    <additional><surrogates/></additional>
                 </msDesc>
                 <listBibl>
-                <bibl type="u" xml:id="Olcott_Catalogue">
-                  <date before="1906-12-31">1906</date>
-                  <date after="1899">1899</date> <!--This date is based off internal information: Olcott pasted into this document a clipping of his 1899 article (i.e. terminus post quem), and refers to his inscriptions that were published in 1906 as "unpublished" (i.e. terminus ante quem).-->
-                  <author>
-                    <persName>Olcott</persName>
-                  </author>
-                  <title>Olcott Collection: Greek and Roman Inscriptions [manuscript finding aid at Columbia University Rare Book and Manuscript Library]</title>
-                </bibl>
-                <bibl>
+                    <bibl><ptr type="rest-of-bibl" target="#Olcott_Catalogue"/><biblScope type="pp">2-3</biblScope></bibl>
+                    <bibl>
                         <ptr type="rest-of-bibl" target="#unpub"/>
-                        <biblScope type="item"/>
-                </bibl>
+                        <biblScope type="pp"></biblScope>
+                    </bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -115,7 +104,8 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
         </encodingDesc>
         <revisionDesc>
             <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from spreadsheet</change>
-            <change when="2014-05-29" who="SAL">SAL .</change>
+            <change when="2014-02-02" who="SAL">SAL updated metadata, id information, text transcription.</change>
+            <change when="2014-02-07" who="SAL">SAL edited existing data, added translation and text information.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -130,12 +120,13 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <div type="edition" xml:lang="gr" xml:space="preserve">
             <div type="textpart" subtype="body">
 <ab>
-<lb n="1"/>
-<lb n="2" break="no"/>ΔΕ ΒΙΟC ΜΟΙ S[Y-]...
-<lb n="3" break="no"/>ΕΤΕΡΟΙC ΕΝΘΑ Λ
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"></gap><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="2" break="no"/>ΔΕ ΒΙΟΣ ΜΟΙ <w part="I">Σ<supplied reason="lost">Y</supplied></w><gap reason="lost" quantity="1" unit="character" precision="low"/>
+<lb n="3" break="no"/>ΕΤΕΡΟΙΣ ΕΝΘΑ Λ
 <lb n="4" break="no"/>ΛΩΝ ΘΑΠΤΕ ΤΥ
-<lb n="5" break="no"/>ΓΥΝΗ ΜΕ ΕΤΟC ΤΕ
-<lb n="6" break="no"/>ΚΟCΤΟΝ ΑΓΟΝΤΑ</ab>
+<lb n="5" break="no"/>ΓΥΝΗ ΜΕ ΕΤΟΣ ΤΕ
+<lb n="6" break="no"/>ΚΟΣΤΟΝ ΑΓΟΝΤΑ
+<lb n="7" break="no"/><space quantity="1" unit="line"/></ab>
          </div>
          <div type="translation" xml:lang="en">
             <ab>
