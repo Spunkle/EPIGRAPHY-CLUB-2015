@@ -14,4 +14,4 @@ _A volunteer group of students creating Leiden-compliant, EpiDoc editions of the
 n.b. We will need to come up with ideas about best practices for communication -- something intuitive but standardized which we will want to query, organize, or search for later on. The Golden Rule is: write titles and descriptions with the clarity and diligence that you would love others to do for you.
 
 ##Tags:
-* I would suggest, if not already done, compiling a list of core (required) elements that must be included in every document. Some of this will be descriptive, and some administrative. Subsumed under that, a list of elements that are not required, but which are either recommended or are entirely voluntary. This list can be added to a folder on the Github page, which will contain all such Best Practices.
+* Your ideas here....
