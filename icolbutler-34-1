@@ -65,19 +65,19 @@
                     </physDesc>
                     <history> 
                  			<summary>George N. Olcott claims to have purchased this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
-                  	<origin>
-                     <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
-                     <origPlace type="necropolis">"Necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
-                     <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
-                  </origin>
-                  <provenance type="observed" notAfter="1899-12-31">
-                     <ab>In a handwritten document in Butler library <bibl><ptr  target=""></ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
-                  </provenance>
-                  <provenance type="observed" notAfter="2011-09-01">
-                     <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
-                  </provenance> 
-                  </history> 
-                  <additional>
+                  	        <origin>
+                                <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+                                <origPlace type="necropolis">"Necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
+                                <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
+                            </origin>
+                            <provenance type="observed" notAfter="1899-12-31">
+                                <ab>In a handwritten document in Butler library <bibl><ptr  target=""></ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
+                            </provenance>
+                            <provenance type="observed" notAfter="2011-09-01">
+                                <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
+                            </provenance> 
+                    </history> 
+                    <additional>
                         <surrogates/>
                     </additional>
                 </msDesc>
