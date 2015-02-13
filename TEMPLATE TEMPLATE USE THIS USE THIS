@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?> 
 <!-- 
     *** CHANGE THE INFORMATION IN THIS TEMPLATE ACCORDING TO WHATEVER INSCRIPTION YOU'RE WORKING ON! ***
     PAY ATTENTION TO PUNCTUATION (E.G. ="", #/ ETC.)
