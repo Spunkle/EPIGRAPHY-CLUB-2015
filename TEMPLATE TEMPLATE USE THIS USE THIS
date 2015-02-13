@@ -1,12 +1,22 @@
-<?oxygen
-RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
-?>   
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
+<!-- 
+    *** CHANGE THE INFORMATION IN THIS TEMPLATE ACCORDING TO WHATEVER INSCRIPTION YOU'RE WORKING ON! ***
+    PAY ATTENTION TO PUNCTUATION (E.G. ="", #/ ETC.)
+    For controlled vocabularies, refer to: http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml
+    PLEASE DELETE ALL THESE (green) COMMENTS AFTERWARDS. GOOD LUCK! 
+-->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><!-- Enter the language/accession number. For example, NY.NY.CU.Butl.L.401 (for a Latin inscription) or NY.NY.CU.Butl.G.28 (for a Greek inscription)--></title>
-                <editor><!-- Write your full name here --></editor>
+                <title>NY.NY.CU.Butl.L.419
+                    <!-- Enter the language/accession number here. For example, NY.NY.CU.Butl.L.401 (for a Latin inscription) or NY.NY.CU.Butl.G.28 (for a Greek inscription)-->
+                </title>
+                <editor>Elizabeth Heintges
+                    <!-- Write your full name here -->
+                </editor>
             </titleStmt>
             <publicationStmt>
                 <authority>Columbia University</authority>
@@ -14,7 +24,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                 <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.419">NY.NY.CU.Butl.L.419</idno> <!-- Change the language/accession number (as above in the <title>) according to your inscription in both fields here -->
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <p>Copyright (c) 2012 by Columbia University</p>
+                        <p>Copyright (c) 2015 by Columbia University</p><!-- I guess we should assert our rights for *this* year here, rather than 2012, when Tom wrote this copyright statement. -->
                         <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
                     </licence>
                 </availability>
@@ -26,40 +36,44 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         <settlement>NY</settlement>
                         <institution>CU</institution>
                         <repository>Butl</repository>
-                        <idno>419</idno> <!-- ENTER YOUR NUMBER/REPLACE 419 -->
+                        <idno>419</idno> <!-- ENTER YOUR NUMBER/REPLACE 419. The rest will stay the same. -->
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="la"/> <!-- ENTER YOUR LANGUAGE (Latin or Greek) -->
-                        <msItem class="#funerary.epitaph"> <!-- Classify your inscription with hashtag, according to the common vocabulary-->
-                            <p><!-- Enter inscription name here, i.e.: Epitaph of Pompeia Augurina --></p>
+                        <textLang mainLang="la"/> <!-- ENTER THE LANGUAGE OF YOUR INSCRIPTION: Latin = "la"; Greek = "gr" -->
+                        <msItem class="#funerary.epitaph"> <!-- Classify your inscription with hashtag, according to the common vocabulary: http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml -->
+                            <p>Epitaph of Pompeia Augurina
+                                <!-- Enter inscription name here. Most will be: Epitaph of (name) -->
+                            </p>
                         </msItem>
                     </msContents>
                     <physDesc>
-                        <objectDesc ana="#slab"> <!-- Describe the object -->
+                        <objectDesc ana="#slab"> <!-- Describe the object according to taxonomies:
+                            http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml 
+                        most will be slab or tablet. -->
                             <supportDesc ana="#stone.marble"> <!-- What kind of stone -->
                                 <support>
                                     <p>
-                                    <seg type="material">marble<!-- name the material/write full text description if necessary --></seg> 
-                                    <seg type="form"><!-- write full text description if necessary, e.g.: broken slab --></seg>
+                                        <seg type="material">marble<!-- name the material/write full text description if necessary --></seg> 
+                                        <seg type="form">broken slab<!-- write full text description if necessary, e.g.: broken slab --></seg>
                                     </p>
                                     <dimensions type="surface" unit="cm"> <!-- Insert measurements within each field, i.e.: <width>30.0</width> -->
-                                        <width></width>
-                                        <height></height>
-                                        <depth></depth>
+                                        <width>30.1</width>
+                                        <height>20.2</height>
+                                        <depth>10.3</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#fragments.contig"> <!-- Hashtag the condition - #fragments.contig, e.g. -->
-                                    <p><!-- Write a description if you want, otherwise delete the <p></p> elements --></p>
+                                    <p><!-- Write a further description if you want, otherwise delete the <p></p> elements --></p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="8"> <!-- Number of lines - change these numbers for your                                  inscription -->
+                                <layout columns="1" writtenLines="8"> <!-- Number of lines - change these numbers for your inscription -->
                                     <p><!-- Optional description --> </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc ana="#impressed.inscribed.chiseled"> <!-- Change according to your inscriptions -->
-                            <handNote><!-- Add letter heights here if you want, or note about the hand, e.g.:                                    <handNote> D.
+                            <handNote><!-- Add letter heights here if you want, or note about the hand, e.g. <handNote> D.
                                 <height unit="cm">2.8cm</height>
                             </handNote>
                             or
@@ -70,32 +84,33 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         </handDesc>
                         <decoDesc>
                             <decoNote ana="#blank">
-                                <p> <!-- Optional description, e.g.: At the end of each of the first two lines of the main body of text within the incised frame, there is a hedera... --></p>
+                                <p> <!-- Optional description, e.g.: At the end of each of the first two lines of the main body of text within the incised frame, there is a hedera... -->
+                                </p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
-                    <history> <!-- IF YOUR INSCRIPTION APPEARS IN OLCOTT'S HANDWRITTEN CATALOGUE, USE THIS BOILERPLATE (changing observation date if necessary, etc.):
+                    <history> <!-- IF YOUR INSCRIPTION APPEARS IN OLCOTT'S HANDWRITTEN CATALOGUE, USE THIS BOILERPLATE (changing observation and origin dates if necessary, etc.):
                         <history>
-                  <summary>George N. Olcott claims to have purchased this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
+                  <summary>George N. Olcott records purchasing this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
                   <origin>
                      <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
                      <origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
                      <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
                   </origin>
-                  <provenance type="observed" notAfter="1899-12-31">
-                     <ab>In a handwritten document in Butler library <bibl><ptr  target=""></ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
+                  <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                     <ab>In <bibl><ptr  target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
                   </provenance>
-                  <provenance type="observed" notAfter="2011-09-01">
+                  <provenance type="observed" subtype="seen" notAfter="2011-09-01">
                      <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
-                  </provenance> 
-                  </history> 
-                    
-                    If you have any other info that you're confused about - check the log for help/ask Joe-->
+                  </provenance>
+                  </history>
+                  
+                  ***If you have any other info that you're confused about - check the log for help / ask!***-->
                         <summary>
                             No information about the provenance of this object prior to its presence in the Columbia collection.</summary>
                         <origin>
                             <origPlace type="location">Unknown</origPlace>
-                            <origDate notBefore="0100" notAfter="0299">Second or third century CE.</origDate> <!-- Date the inscription - CHANGE THESE -->
+                            <origDate notBefore="0100" notAfter="0299">Second or third century CE.</origDate> <!-- Date the inscription, both as machine-readable numbers and human-readable text: CHANGE THESE -->
                         </origin>
                         <provenance type="observed" notAfter="2012-10-19">
                             <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
@@ -105,10 +120,16 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         <surrogates/>
                     </additional>
                 </msDesc>
-                <listBibl> <!-- If you have bibliography, add here - check Joe's log for how Olcott's stuff is tdone; otherwise leave this as is for the unpublished inscriptions -->
+                <listBibl> <!-- List here *previous publications only* of the inscription (i.e. not secondary literature). See below for how to *point* to resources from this master bibliography list (search for e.g. CIL, ZPE, Olcott, etc.:
+                    http://library.brown.edu/usep_data/resources/titles.xml
+                    e.g. <bibl>
+                        <ptr type="rest-of-bibl" target="#AJA_Olcott2"/>
+                        <biblScope type="pp">2-3</biblScope>
+                    </bibl>
+                    ...otherwise leave this as is for the unpublished inscriptions -->
                     <bibl>
                         <ptr type="rest-of-bibl" target="#unpub"/>
-                        <biblScope type="item"/>
+                        <biblScope type="item"></biblScope>
                     </bibl>
                 </listBibl>
             </sourceDesc>
@@ -120,8 +141,9 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                 </xi:fallback>
             </xi:include>
         </encodingDesc>
-        <revisionDesc> <!-- CHANGE ALL OF THESE TO YOUR OWN -->
+        <revisionDesc> 
             <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <!-- LEAVE THE INITIAL ONE BY "TRE" BUT CHANGE THE REST OF THESE TO YOUR OWN -->
             <change when="2014-05-29" who="EMH">EMH marked up.</change>
             <change when="2014-06-05" who="EMH">EMH added text and translation.</change>
             <change when="2014-08-15" who="EMH">Added descriptive metadata, tags; edited text and translation.</change>
@@ -137,14 +159,17 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:lang="la" xml:space="preserve"> <!-- CHANGE LANGUAGE HERE IF NECESSARY - IE IF YOU ARE WRITING ON A GREEK INSCRIPTION -->
-            <div type="textpart" subtype="border"> <!-- IF YOU HAVE A BORDER -->
+            <div type="edition" xml:lang="la" xml:space="preserve"> <!-- CHANGE LANGUAGE HERE IF NECESSARY - IE IF YOU ARE WRITING ON A GREEK INSCRIPTION, WRITE "gr" -->
+            <div type="textpart" subtype="border"> <!-- IF YOU HAVE A BORDER, OR IF THE TEXT IS DIVIDED INTO SEPARATE DIVISIONS (usually unnessary)-->
                <ab>
                  <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
                </ab>
             </div>
             <div type="textpart" subtype="body">
-<ab> <!-- Write your transcription, delete as necessary -->
+<ab> <!-- Write your transcription, delete as necessary
+use the CHET C convertor for basic Leiden conventions:
+http://cds.library.brown.edu/projects/chet-c/chetc.html
+-->
 <lb n="1"/><persName><name type="gentilicium" key="Pompeia"><hi rend="tall">P</hi>ompeiae</name> <persName><name type="praenomen" key="Gnaeus"><expan><abbr>Gn</abbr><ex>aei</ex></expan></name></persName>  <expan><abbr>fil</abbr><ex>iae</ex></expan> <name type="cognomen" key="Augurina">Au<g type="hedera"/>
 <lb n="2" break="no"/>gurinae</name></persName> matri pien
 <lb n="3" break="no"/>tissimae <persName><persName><name type="gentilicium" key="Aelius">Aeli<hi rend="tall">i</hi></name> <persName><name type="praenomen" key="Publius">Publi</name></persName>
