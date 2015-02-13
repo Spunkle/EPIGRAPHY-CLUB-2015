@@ -1,6 +1,5 @@
-<?oxygen
-RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
-?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -15,9 +14,8 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                 <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.424">NY.NY.CU.Butl.L.424</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <p>Copyright (c) 2014 by Columbia University</p>
-                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
-                            USA.</p>
+                        <p>Copyright (c) 2015 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
                     </licence>
                 </availability>
             </publicationStmt>
@@ -61,17 +59,17 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                             </layoutDesc>
                         </objectDesc>
                         <handDesc ana="#protruding.molded">
-                            <handNote>Shallow letters without serifs protrude from the surface and appear to have molded at the time when the lead was originally poured.</handNote>
+                            <handNote>Shallow letters without serifs protrude in relief from the surface and appear to have molded at the time when the lead was originally poured (rather than attached later).</handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote/>
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <summary>Entered Columbia's holdings by March 1901, although full provenance is unknown.</summary>
+                        <summary>This object had entered Columbia's holdings by March 1901, although its full provenance is unknown. The text is very similar but not identical to another inscription already published in the Corpus Inscriptionum Latinarum. It may have been purchased by George N. Olcott, perhaps from Rome.</summary>
                         <origin>
                             <origPlace type="location">Unknown</origPlace>
-                            <origDate notBefore="0069" notAfter="0100">Flavian, late-1st century CE</origDate>
+                            <origDate notBefore="0070" notAfter="0100">Flavian, late-1st century CE</origDate>
                         </origin>
                         <provenance type="observed" subtype="recorded" notAfter="1901-03-31">
                             <ab>Recorded as being in the possession of the Latin department in <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly"/><title>The Columbia University Quarterly</title>, <date>March 1901</date>, pp.<biblScope type="pp">189</biblScope></bibl>.</ab>
@@ -88,10 +86,10 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                     <bibl>
                         <ptr type="rest-of-bibl" target="#CIL_VI"/>
                         <biblScope type="item">8438</biblScope>
-                        <note>Parts of the text of this lead tablet are very similar to the stone funerary tablet CIL 6.8438. When combined with the unusual medium and production, i.e. a lead funeral tablet with letters in relief, this similarity suggests an unusual provenance for the object, perhaps as a counterfeit (or a kind of draft model), cf. NY.NY.CU.Butl.L.444.</note>
+                            <note>Parts of the text of this lead tablet are very similar to the (now-lost) epitaph published as CIL 6.8438, although not quite verbatim ac litteratim. When combined with the unusual medium and production, i.e. a lead funeral tablet with letters in relief, this similarity suggests an unusual provenance for the object, perhaps as a counterfeit or a kind of draft model, cf. NY.NY.CU.Butl.L.444, which is produced with the same technique.</note>
                     </bibl>
                     <bibl>
-                        <ptr type="rest-of-bibl" target="#CU_Quarterly"/>
+                        <ptr type="rest-of-bibl" target="#unpub"/>
                         <biblScope type="pp">190</biblScope>
                     </bibl>
                 </listBibl>
@@ -109,6 +107,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <change when="2013-05-22" who="JS">translated initial data to EpiDoc</change>
             <change when="2014-09-19" who="EMH">edited initial draft, with suggested comments</change>
             <change when="2014-09-26" who="JS">proofread again mutatis mutandis</change>
+            <change when="2014-02-06" who="JS">updated bibliography, summary, provenance</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -123,7 +122,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <div type="edition" xml:lang="la" xml:space="preserve">
             <ab>
                   <gap reason="lost" extent="unknown" unit="line"/>
-                  <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/><supplied reason="undefined" evidence="parallel">tab</supplied>
+                  <lb n="1"/><gap reason="lost" extent="unknown" unit="chars"/><supplied reason="undefined" evidence="parallel">tab</supplied>
                   <lb n="2" break="no"/><unclear reason="damage" cert="high">ul</unclear><expan><abbr>arior</abbr><ex>um</ex></expan>
                   <lb n="3"/><expan><abbr>ration</abbr><ex>is</ex></expan>
                   <lb n="4"/><expan><abbr>hereditat</abbr><ex>ium</ex></expan>
@@ -139,7 +138,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             </ab>
          </div>
             <div type="translation" xml:lang="en">
-                <ab>...of the archives for the inheritances account of the emperor Vespasian, with whom his wife Flavia Nica lived for 17 years without any resentment. She set up this memorial.</ab>
+                <ab>...(of the archives) for the inheritances' account of the emperor Vespasian, (with) whom his wife Flavia Nica (lived) for 17 years without any resentment. She set up this memorial.</ab>
             </div>
         </body>
     </text>
