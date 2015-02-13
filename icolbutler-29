@@ -59,14 +59,14 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         </layoutDesc>
                         </objectDesc>
                         <handDesc ana="#impressed.inscribed.chiseled">
-                        <handNote ana="blank"><p>Shaded with small serifs.  Faint cross exists on the lambda in line 2, which may be a mistake after the preceeding alpha, lambda in line 3 shows no such mistake. Tight spacing between characters is consistent except for the mu in line 4, which has significant space between it and the preceededing heta and slightly more than average distance from the following epsilon.  This may be due to the style which consists of two vertical stems that connect via a bowed cross and two similarly curved serifs on the bottom of both stems.  While the style is similar to the mu in line 1, the space between the letters in line 1 is consistant with the rest of the inscription. The omega in line 3 is represented by a large version of a lowercase figure rather than the standard capitalized form of the letter.  The sigmas are represented by an uppercase C.</p>
+                        <handNote ana="blank"><p>Shaded with small serifs.  Tight spacing between characters is generally consistent except for the mu in line 4, which has significant space between it and the preceededing eta and slightly more than average distance from the following epsilon.  This may be due to the style which consists of two vertical stems that connect via a bowed cross and two similarly curved serifs on the bottom of both stems.  While the style is similar to the mu in line 1, the space between the letters in line 1 is consistant with the rest of the inscription. The omega in line 3 is represented by a large version of a lowercase figure rather than the standard capitalized form of the letter.  Utilizes lunate sigmas, represented by an uppercase C.</p>
                         <height unit="cm">2</height>
                         <width unit="cm">1</width>
                         </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote ana="#blank">
-                                <p>Interpuncts located after ΜΟΙ in line 1, ΛΩΝ in line 3, and ΤΑ in line 5 are likely verse divisions.  Marks after the ΤΕ in line 3 and ΜΕ in line 4 appear to be damage.  Incised alignment lines visible and another set exist below the extant text, possibly by the mason overestimating the amount of space that would be needed. Utilizes lunate sigmas.</p>
+                                <p>Interpuncts located after ΜΟΙ in line 1, ΛΩΝ in line 3, and ΤΑ in line 5 are likely verse divisions.  Marks after the ΤΕ in line 3 and ΜΕ in line 4 appear to be damage.  Incised alignment lines visible and another set exist below the extant text, possibly by the mason overestimating the amount of space that would be needed. </p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
