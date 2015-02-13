@@ -50,7 +50,7 @@
 									</dimensions>
 								</support>
 								<condition ana="#fragments.contig">
-									<p>Bottom left hand corner broken off and lost. One iron nail still in place at center of righthand side, only drill hole remains on left.</p>
+									<p>Bottom left hand corner broken off and lost. One iron nail still in place at center of righthand side; on lefthand side, only a drill hole remains. Bottom left corner fragment is noncontiguous with main slab, lightened over time, possibly due to different storage conditions.</p>
 								</condition>
 							</supportDesc>
 							<layoutDesc>
@@ -69,7 +69,7 @@
 							</decoNote>
 						</decoDesc>
 			</physDesc>
-			<history> <!-- IF YOUR INSCRIPTION APPEARS IN OLCOTT'S HANDWRITTEN CATALOGUE, USE THIS BOILERPLATE (changing observation date if necessary, etc.): -->
+                        <history>
 				<summary>George N. Olcott claims to have purchased this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
 				<origin>
 					<placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
@@ -87,7 +87,7 @@
 				<surrogates/>
 			</additional>
 		</msDesc>
-		<listBibl> <!-- If you have bibliography, add here - check Joe's log for how Olcott's stuff is tdone; otherwise leave this as is for the unpublished inscriptions -->
+		<listBibl> 
 			<bibl>
 				<ptr type="rest-of-bibl" target="#unpub"/>
 				<biblScope type="item"/>
