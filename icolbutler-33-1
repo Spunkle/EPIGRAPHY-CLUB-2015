@@ -2,176 +2,141 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml"
    schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title><!-- Enter the language/accession number. For example, NY.NY.CU.Butl.L.401 (for a Latin inscription) or NY.NY.CU.Butl.G.28 (for a Greek inscription)--></title>
-<editor><!-- Write your full name here --></editor>
-</titleStmt>
-<publicationStmt>
-<authority>Columbia University</authority>
-<idno type="filename">icolbutler-419</idno> <!-- Insert the filename (replace 419 with your number) -->
-<idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.419">NY.NY.CU.Butl.L.419</idno> <!-- Change the language/accession number (as above in the <title>) according to your inscription in both fields here -->
-<availability>
-<licence target="http://creativecommons.org/licenses/by/3.0/">
-<p>Copyright (c) 2012 by Columbia University</p>
-<p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-</licence>
-</availability>
-</publicationStmt>
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<region>NY</region>
-<settlement>NY</settlement>
-<institution>CU</institution>
-<repository>Butl</repository>
-<idno>419</idno> <!-- ENTER YOUR NUMBER/REPLACE 419 -->
-</msIdentifier>
-<msContents>
-<textLang mainLang="la"/> <!-- ENTER YOUR LANGUAGE (Latin or Greek) -->
-<msItem class="#funerary.epitaph"> <!-- Classify your inscription with hashtag, according to the common vocabulary-->
-<p><!-- Enter inscription name here, i.e.: Epitaph of Pompeia Augurina --></p>
-</msItem>
-</msContents>
-<physDesc>
-<objectDesc ana="#slab"> <!-- Describe the object -->
-<supportDesc ana="#stone.marble"> <!-- What kind of stone -->
-<support>
-<p>
-<seg type="material">marble<!-- name the material/write full text description if necessary --></seg>
-<seg type="form"><!-- write full text description if necessary, e.g.: broken slab --></seg>
-</p>
-<dimensions type="surface" unit="cm"> <!-- Insert measurements within each field, i.e.: <width>30.0</width> -->
-<width></width>
-<height></height>
-<depth></depth>
-</dimensions>
-</support>
-<condition ana="#fragments.contig"> <!-- Hashtag the condition - #fragments.contig, e.g. -->
-<p><!-- Write a description if you want, otherwise delete the <p></p> elements --></p>
-</condition>
-</supportDesc>
-<layoutDesc>
-<layout columns="1" writtenLines="8"> <!-- Number of lines - change these numbers for your inscription -->
-<p><!-- Optional description --> </p>
-</layout>
-</layoutDesc>
-</objectDesc>
-<handDesc ana="#impressed.inscribed.chiseled"> <!-- Change according to your inscriptions -->
-<handNote><!-- Add letter heights here if you want, or note about the hand, e.g.: <handNote> D.
-<height unit="cm">2.8cm</height>
-</handNote>
-or
-<handNote ana="blank">
-<p> While the hand is largely consistent (the letters are generally spaced evenly and of a similar dimension), there is some variation in lettering, which is especially visible in the rendering of the letter M. The hederae (discussed below) are likewise not consistent. However, there is no clear evidence for suggesting that this epitaph is the product of multiple hands.</p>
-</handNote> -->
-</handNote>
-</handDesc>
-<decoDesc>
-<decoNote ana="#blank">
-<p> <!-- Optional description, e.g.: At the end of each of the first two lines of the main body of text within the incised frame, there is a hedera... --></p>
-</decoNote>
-</decoDesc>
-</physDesc>
-<history> <!-- IF YOUR INSCRIPTION APPEARS IN OLCOTT'S HANDWRITTEN CATALOGUE, USE THIS BOILERPLATE (changing observation date if necessary, etc.):
-<history>
-<summary>George N. Olcott claims to have purchased this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
-<origin>
-<placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
-<origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
-<origDate notBefore="0001" notAfter="0100">first century CE</origDate>
-</origin>
-<provenance type="observed" notAfter="1899-12-31">
-<ab>In a handwritten document in Butler library <bibl><ptr target=""></ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
-</provenance>
-<provenance type="observed" notAfter="2011-09-01">
-<ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
-</provenance>
-</history>
-If you have any other info that you're confused about - check the log for help/ask Joe-->
-<summary>
-No information about the provenance of this object prior to its presence in the Columbia collection.</summary>
-<origin>
-<origPlace type="location">Unknown</origPlace>
-<origDate notBefore="0100" notAfter="0299">Second or third century CE.</origDate> <!-- Date the inscription - CHANGE THESE -->
-</origin>
-<provenance type="observed" notAfter="2012-10-19">
-<ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
-</provenance>
-</history>
-<additional>
-<surrogates/>
-</additional>
-</msDesc>
-<listBibl> <!-- If you have bibliography, add here - check Joe's log for how Olcott's stuff is tdone; otherwise leave this as is for the unpublished inscriptions -->
-<bibl>
-<ptr type="rest-of-bibl" target="#unpub"/>
-<biblScope type="item"/>
-</bibl>
-</listBibl>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
-<xi:fallback>
-<p>Taxonomies for US Epigraphy controlled values</p>
-</xi:fallback>
-</xi:include>
-</encodingDesc>
-<revisionDesc> <!-- CHANGE ALL OF THESE TO YOUR OWN -->
-<change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
-<change when="2014-05-29" who="EMH">EMH marked up.</change>
-<change when="2014-06-05" who="EMH">EMH added text and translation.</change>
-<change when="2014-08-15" who="EMH">Added descriptive metadata, tags; edited text and translation.</change>
-<change when="2014-08-20" who="EMH">Edited code, added dates, with input from JS.</change>
-</revisionDesc>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>NY.NY.CU.Butl.L.33</title>
+				<editor>Joe Sheppard</editor>
+				<editor>Erin Petrella</editor>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Columbia University</authority>
+				<idno type="filename">icolbutler-33</idno>
+				<idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.33">NY.NY.CU.Butl.L.33</idno>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/3.0/">
+						<p>Copyright (c) 2012 by Columbia University</p>
+						<p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<region>NY</region>
+						<settlement>NY</settlement>
+						<institution>CU</institution>
+						<repository>Butl</repository>
+						<idno>33</idno>
+					</msIdentifier>
+					<msContents>
+						<textLang mainLang="la"/>
+						<msItem class="#funerary.epitaph">
+							<p>Epitaph of Lucius Gavius Amarantus</p>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc ana="#slab"> 
+							<supportDesc ana="#stone.marble">
+								<support>
+									<p>
+										<seg type="material">marble</seg>
+										<seg type="form">broken slab</seg>
+									</p>
+									<dimensions type="surface" unit="cm">
+										<width>32</width>
+										<height>19</height>
+										<depth>1.5</depth>
+									</dimensions>
+								</support>
+								<condition ana="#fragments.contig">
+									<p>Bottom left hand corner broken off and lost. One iron nail still in place at center of righthand side, only drill hole remains on left.</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="4">
+									<p>First and final lines indented although perhaps an attempt to center text for each line.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc ana="#impressed.inscribed.chiseled">
+							<handNote>Lettering is inconsistent in form, with some letters cramped as though the inscriber ran out of space. In particular, the first and last characters of line 2, an 'L' and an 'I' are not equidistant to the border, suggesting that the lettering was inscribed after the border. Note also the uneven spacing of the word 'Manibus' on line 1.
+							</handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote ana="#blank">
+								<p>Undulating border incised around text. Sunken triangles at corners create tabula ansata motif.</p>
+							</decoNote>
+						</decoDesc>
+			</physDesc>
+			<history> <!-- IF YOUR INSCRIPTION APPEARS IN OLCOTT'S HANDWRITTEN CATALOGUE, USE THIS BOILERPLATE (changing observation date if necessary, etc.): -->
+				<summary>George N. Olcott claims to have purchased this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
+				<origin>
+					<placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+					<origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
+					<origDate notBefore="0001" notAfter="0100">first century CE</origDate>
+				</origin>
+				<provenance type="observed" notAfter="1899-12-31">
+					<ab>In a handwritten document in Butler library <bibl><ptr target=""></ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/></bibl>, published in 1899.</ab>
+				</provenance>
+				<provenance type="observed" notAfter="2011-09-01">
+					<ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
+				</provenance>
+			</history>
+			<additional>
+				<surrogates/>
+			</additional>
+		</msDesc>
+		<listBibl> <!-- If you have bibliography, add here - check Joe's log for how Olcott's stuff is tdone; otherwise leave this as is for the unpublished inscriptions -->
+			<bibl>
+				<ptr type="rest-of-bibl" target="#unpub"/>
+				<biblScope type="item"/>
+			</bibl>
+			</listBibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+		<xi:fallback>
+			<p>Taxonomies for US Epigraphy controlled values</p>
+		</xi:fallback>
+		</xi:include>
+	</encodingDesc>
+	<revisionDesc> 
+		<change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital 	spreadsheet</change>
+		<change when="2012-02-08T13:34:00" who="JS">marked up text and metadata from initial data entry</change>
+		<change when="2015-02-12T21:44:00" who="EP">added descriptive metadata and updated xml</change>
+	</revisionDesc>
 </teiHeader>
 <facsimile>
-<graphic url=""/>
-<surface>
-<desc/>
-<graphic url="NY.NY.CU.Butl.L.419.jpg"/> <!-- CHANGE THE NUMBER TO YOUR INSCRIPTION -->
-</surface>
+	<graphic url=""/>
+	<surface>
+		<desc></desc>
+		<graphic url="NY.NY.CU.Butl.L.33.jpg"/> 
+	</surface>
 </facsimile>
 <text>
-<body>
-<div type="edition" xml:lang="la" xml:space="preserve"> <!-- CHANGE LANGUAGE HERE IF NECESSARY - IE IF YOU ARE WRITING ON A GREEK INSCRIPTION -->
-<div type="textpart" subtype="border"> <!-- IF YOU HAVE A BORDER -->
-<ab>
-<expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
-</ab>
-</div>
-<div type="textpart" subtype="body">
-<ab> <!-- Write your transcription, delete as necessary -->
-<lb n="1"/><persName><name type="gentilicium" key="Pompeia"><hi rend="tall">P</hi>ompeiae</name> <persName><name type="praenomen" key="Gnaeus"><expan><abbr>Gn</abbr><ex>aei</ex></expan></name></persName> <expan><abbr>fil</abbr><ex>iae</ex></expan> <name type="cognomen" key="Augurina">Au<g type="hedera"/>
-<lb n="2" break="no"/>gurinae</name></persName> matri pien
-<lb n="3" break="no"/>tissimae <persName><persName><name type="gentilicium" key="Aelius">Aeli<hi rend="tall">i</hi></name> <persName><name type="praenomen" key="Publius">Publi</name></persName>
-<lb n="4"/> fili <name type="cognomen" key="Nigrinus">Nigrinus</name></persName> et <name type="cognomen" key="Augurina">Augu
-<lb n="5" break="no"/>rina</name></persName> fecerunt liber
-<lb n="6" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> posteris
-<lb n="7" break="no"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum.<space quantity="11" unit="character"/></ab>
-</div>
-<div type="translation" xml:lang="en">
-<ab>
-<lb n="1"/>To the sacred shades.
-<lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, Aelius Nigrinus and Aelia Augurina, children of Publius, made (this) and for her/their freedmen, freedwomen, and their descendants. <!-- Write your translation -->
-</ab>
-</div>
+	<body>
+		<div type="edition" xml:lang="la" xml:space="preserve">
+		<div type="textpart" subtype="border">
+			<ab>
+         </ab>
+		</div>
+		<div type="edition" subtype="body">
+			<ab> 
+			   <lb n="1"/>D<hi rend="tall">i</hi>s Manibus
+               <lb n="2"/><persName type="praenomen" key="Lucius"><expan><abbr>L</abbr><ex>ucii</ex></expan> <name type="gentilicium" key="Gavius">Gavi</name> <name type="cognomen" key="Amarantus">Amaranti</name></persName>
+               <lb n="3"/><persName type="gentilicium" key="Claudia">Claudia</persName> uxor
+               <lb n="4"/>viro <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+			</ab>
+		</div>
+		<div type="translation" xml:lang="en">
+			<ab>
+					<lb n="1"/>To the sacred shades.
+					<lb n="2"/>To the Shades of the Underworld of Lucius Gavius Amarantius. Claudia, his wife, made (this) for her well-deserving husband.
+			</ab>
+		</div>
 </div>
 </body>
 </text>
 </TEI>
-
-    Status
-    API
-    Training
-    Shop
-    Blog
-    About
-
-    © 2015 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Contact
