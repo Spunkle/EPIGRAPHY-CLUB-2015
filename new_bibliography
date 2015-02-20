@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl type="j" xml:id="CU_Quarterly">
+  <title>Columbia University Quarterly</title>
+  <bibl type="v" xml:id="CU_Quarterly_3">
+    <date when="1901-03">March 1901</date>
+    <biblScope type="vol">3</biblScope>
+    <biblScope type="issue">1</biblScope>
+    <biblScope type="pp">189-190</biblScope>
+    <bibl type="a" xml:id="CU_Quarterly_Peck">
+      <author>
+        <persName>Harry Thurston Peck</persName>
+      </author>
+      <ref target="http://books.google.com/books?id=vz8jAQAAIAAJ">
+        University -- School of Philosophy -- Department of Latin
+      </ref>
+    </bibl>
+  </bibl>
+</bibl>
+
+<bibl type="j" xml:id="AJA">
+<abbr type="primary">AJA</abbr>
+<title>American Journal of Archaeology</title>
+<pubPlace>New York</pubPlace>
+<bibl type="v" xml:id="AJA_2">
+<biblScope from="2">2</biblScope>
+<date when="1898">1898</date>
+<bibl type="a" xml:id="AJA_Dennison">
+<author>Dennison</author>
+<ref type="jstor" target="http://www.jstor.org/stable/496592">
+Some New Inscriptions from Puteoli, Baiae, Misenum, and Cumae, pp. 373-398
+</ref>
+</bibl>
+</bibl>
+
+<bibl type="c" xml:id="Olcott_Catalogue">
+  <title>Olcott Collection: Greek and Roman Inscriptions</title>
+  <pubPlace>New York</pubPlace>
+  <date before="1906-12-31">1906</date>
+  <date after="1899">1899</date>
+  <!--This date is based off internal information: Olcott pasted into this document a clipping of his 1899 article (i.e. terminus post quem), and refers to his inscriptions that were published in 1906 as "unpublished" (i.e. terminus ante quem).-->
+  <author>
+    <persName>George N. Olcott</persName>
+  </author>
+<!-- N.b. This document is currently kept at the Rare Book and Manuscript Library of Butler Library at Columbia University. I suggest adding here a link to a copy of the document stored online. -->
+</bibl>
