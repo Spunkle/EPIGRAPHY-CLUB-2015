@@ -59,14 +59,14 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         </layoutDesc>
                         </objectDesc>
                         <handDesc ana="#impressed.inscribed.chiseled">
-                        <handNote ana="blank"><p>Shaded with small serifs.  Tight spacing between characters is generally consistent except for the mu in line 4, which has significant space between it and the preceededing eta and slightly more than average distance from the following epsilon.  This may be due to the style which consists of two vertical stems that connect via a bowed cross and two similarly curved serifs on the bottom of both stems.  While the style is similar to the mu in line 1, the space between the letters in line 1 is consistant with the rest of the inscription. The omega in line 3 is represented by a large version of a lowercase figure rather than the standard capitalized form of the letter.  Utilizes lunate sigmas, represented by an uppercase C.</p>
+                        <handNote ana="blank"><p>Shaded with small serifs.  Tight spacing between characters is generally consistent except for the mu in line 4, which has significant space between it and the preceding eta and slightly more than average distance from the following epsilon.  This may be due to the style which consists of two vertical stems that connect via a bowed cross and two similarly curved serifs on the bottom of both stems.  While the style is similar to the mu in line 1, the space between the letters in line 1 is consistent with the rest of the inscription. The omega in line 3 is represented by a large version of a lowercase figure rather than the standard capitalized form of the letter.  Utilizes lunate sigmas, represented by an uppercase C.</p>
                         <height unit="cm">2</height>
                         <width unit="cm">1</width>
                         </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote ana="#blank">
-                                <p>Interpuncts located after ΜΟΙ in line 1, ΛΩΝ in line 3, and ΤΑ in line 5 are likely verse divisions.  Marks after the ΤΕ in line 3 and ΜΕ in line 4 appear to be damage.  Incised alignment lines visible and another set exist below the extant text, possibly by the mason overestimating the amount of space that would be needed. </p>
+                                <p>Interpuncts located after ΜΟΙ in line 1, ΛΩΝ in line 3, and ΤΑ in line 5 are likely verse divisions.  Marks after the ΤΕ in line 3 and ΜΕ in line 4 appear to be damage.  Incised alignment lines visible and another set exist below the extant text, possibly by the mason overestimating the amount of space that would be needed.</p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -87,8 +87,17 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                     <additional><surrogates/></additional>
                 </msDesc>
                 <listBibl>
-                    <bibl><ptr type="rest-of-bibl" target="#Olcott_Catalogue"/><biblScope type="pp">2-3</biblScope></bibl>
-                    <bibl>
+                    <bibl type="c" xml:id="Olcott_Catalogue">
+                    <title>Olcott Collection: Greek and Roman Inscriptions</title>
+                    <pubPlace>New York</pubPlace>
+                    <date before="1906-12-31">1906</date>
+                    <date after="1899">1899</date>
+                    <!--This date is based off internal information: Olcott pasted into this document a clipping of his 1899 article (i.e. terminus post quem), and refers to his inscriptions that were published in 1906 as "unpublished" (i.e. terminus ante quem).-->
+                    <author>
+                    <persName>George N. Olcott</persName>
+                    </author>
+                    <!-- n.b. This document is currently kept at the Rare Book and Manuscript Library of Butler Library at Columbia University. I suggest linking here to a copy of the document stored online. -->
+                    </bibl>
                         <ptr type="rest-of-bibl" target="#unpub"/>
                         <biblScope type="pp"></biblScope>
                     </bibl>
@@ -121,17 +130,16 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <div type="textpart" subtype="body">
 <ab>
 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"></gap><gap reason="lost" extent="unknown" unit="character"/>
-<lb n="2" break="no"/>ΔΕ ΒΙΟΣ ΜΟΙ <w part="I">Σ<supplied reason="lost">Y</supplied></w><gap reason="lost" quantity="1" unit="character" precision="low"/>
-<lb n="3" break="no"/>ΕΤΕΡΟΙΣ ΕΝΘΑ Λ
-<lb n="4" break="no"/>ΛΩΝ ΘΑΠΤΕ ΤΥ
-<lb n="5" break="no"/>ΓΥΝΗ ΜΕ ΕΤΟΣ ΤΕ
-<lb n="6" break="no"/>ΚΟΣΤΟΝ ΑΓΟΝΤΑ
+<lb n="2" break="no"/>ΔΕ ΒΙΟΣ ΜΟΙ Σ<supplied reason="lost" cert="low">YI</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3" break="no"/>ΕΤΕΡΟΙΣ ΕΝΘΑ ΛI<supplied reason="lost" cert="low">θΟΣ</supplied
+<lb n="4" break="no"/>ΛΩΝ ΘΑΠΤΕ ΤΥ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="5" break="no"/>ΓΥΝΗ ΜΕ ΕΤΟΣ ΤΕ<gap reason="lost" extent="unknown" unit="character"/>
+<lb n="6" break="no"/><supplied reason="lost" cert="low">ΠΕΝΤΕ</supplied>ΚΟΣΤΟΝ ΑΓΟΝΤΑ
 <lb n="7" break="no"/><space quantity="1" unit="line"/></ab>
          </div>
          <div type="translation" xml:lang="en">
             <ab>
-               <lb n="1"/>
-               <lb n="2"/>
+               <lb n="1">...and life to me, with the others there, a stone, my wife Ty[...] buried me here when I was in my fiftieth year</lb>
             </ab>
          </div>
         </div> 
