@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>   
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.34</title>
+                <editor>Joe Sheppard</editor>
+                <editor>Erin Petrella</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-34</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.34">NY.NY.CU.Butl.L.34</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>34</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/> 
+                        <msItem class="#funerary.epitaph"><p>Columbarium slab of Marcus Iulius Hedulus</p></msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#stone.marble">
+                                <support>
+                                    <p><seg type="material">marble</seg> 
+                                    <seg type="form">columbarium slab</seg></p>
+                                    <dimensions type="surface" unit="cm">
+                                        <width>22.2</width>
+                                        <height>12</height>
+                                        <depth>2.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single"><p>Very small part broken from bottom right corner, no loss of information. Text and decoration intact.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p></p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                            <handNote><p>Forms and module of letters are consistent. First row of lettering is taller than second row and letters are spaced further apart than those of the bottom row. The letter 'M' is taller than 'Iulius'.</p>
+                            </handNote> 
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote>
+                                <p>The text block is surrounded by two concentric rectangular borders incised into the surface. Tabula ansata effect achieved with triangles cut into the each corner, with a thin vegetal decorative motif on the left and right sides.</p>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history> 
+                 			<summary>George N. Olcott records purchasing this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
+                  	        <origin>
+                                <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+                                <origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">"Necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
+                                <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
+                            </origin>
+                            <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                                <ab>In <bibl><ptr target="Olcott_Catalogue">a handwritten document in Butler library</ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/>a previous publication</bibl> from 1899.</ab>
+                            </provenance>
+                            <provenance type="observed" notAfter="2011-09-01">
+                                <ab>Identified in the Butler library collection no later than 1st September 2011.</ab>
+                            </provenance> 
+                    </history> 
+                    <additional>
+                        <surrogates/>
+                    </additional>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#unpub"/>
+                        <biblScope type="item"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change when="2013-02-19" who="JS">translated initial data to EpiDoc</change>
+            <change when="2015-02-07" who="EP">added descriptive metadata, updated xml</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url="NY.NY.CU.Butl.L.34.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+               <ab>
+               <lb n="1"/><persName> <name type="praenomen" key="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <name type="gentilicium" key="Iulius">Iulius</name>
+               <lb n="2"/><name type="cognomen" key="Hedulus">H<supplied reason="omitted">a</supplied>edulus</name></persName>
+            </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+               <ab>Marcus Julius H(a)edulus.</ab>
+         </div>
+        </body>
+    </text>
+</TEI>
