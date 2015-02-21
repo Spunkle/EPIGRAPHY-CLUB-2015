@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml"
+   schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>NY.NY.CU.Butl.L.33</title>
+				<editor>Joe Sheppard</editor>
+				<editor>Erin Petrella</editor>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Columbia University</authority>
+				<idno type="filename">icolbutler-33</idno>
+				<idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.33">NY.NY.CU.Butl.L.33</idno>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/3.0/">
+						<p>Copyright (c) 2012 by Columbia University</p>
+						<p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<region>NY</region>
+						<settlement>NY</settlement>
+						<institution>CU</institution>
+						<repository>Butl</repository>
+						<idno>33</idno>
+					</msIdentifier>
+					<msContents>
+						<textLang mainLang="la"/>
+						<msItem class="#funerary.epitaph">
+							<p>Epitaph of Lucius Gavius Amarantus</p>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc ana="#slab"> 
+							<supportDesc ana="#stone.marble">
+								<support>
+									<p>
+										<seg type="material">marble</seg>
+										<seg type="form">broken slab</seg>
+									</p>
+									<dimensions type="surface" unit="cm">
+										<width>32</width>
+										<height>19</height>
+										<depth>1.5</depth>
+									</dimensions>
+								</support>
+								<condition ana="#fragments.contig">
+									<p>Bottom lefthand corner is broken off and lost. One iron nail is still in place at the center of the righthand side; on the lefthand side, only a drill hole remains. A fragment, broken off the bottom of the slab to the left of center, is lighter in color, possibly due to different storage conditions.</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="4">
+									<p>First and final lines indented although perhaps an attempt to center text for each line.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc ana="#impressed.inscribed.chiseled">
+							<handNote><p>Note the i-longa of Dis in line 1. The modules and spacing between letters are inconsistent, as though the inscriber ran out of space. In particular, the first and last characters of line 2, an 'L' and an 'I' are not equidistant to the border, suggesting that the lettering was inscribed after the border. Note also the uneven spacing of the word 'Manibus' on line 1.</p>
+							</handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote>
+								<p>Undulating border incised around text. Sunken triangles at corners create tabula ansata motif.</p>
+							</decoNote>
+						</decoDesc>
+			</physDesc>
+                        <history>
+				<summary>George N. Olcott records purchasing this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
+				<origin>
+					<placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+					<origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
+					<origDate notBefore="0001" notAfter="0100">first century CE</origDate>
+				</origin>
+				<provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+					<ab>In <bibl><ptr target="Olcott_Catalogue">a handwritten document in Butler library</ptr></bibl> George N. Olcott mentions this inscription coming from the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3">an article published in 1899</ptr></bibl>.</ab>
+				</provenance>
+				<provenance type="observed" notAfter="2011-09-01">
+					<ab>Identified in the Butler library collection no later than 1st September 2011.</ab>
+				</provenance>
+			</history>
+			<additional>
+				<surrogates/>
+			</additional>
+		</msDesc>
+		<listBibl> 
+			<bibl>
+				<ptr type="rest-of-bibl" target="#unpub"/>
+				<biblScope type="item"/>
+			</bibl>
+			</listBibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+		<xi:fallback>
+			<p>Taxonomies for US Epigraphy controlled values</p>
+		</xi:fallback>
+		</xi:include>
+	</encodingDesc>
+	<revisionDesc> 
+		<change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+		<change when="2012-02-08T13:34:00" who="JS">marked up text and metadata from initial data entry</change>
+		<change when="2015-02-12T21:44:00" who="EP">added descriptive metadata and updated xml</change>
+	</revisionDesc>
+</teiHeader>
+<facsimile>
+	<graphic url=""/>
+	<surface>
+		<desc></desc>
+		<graphic url="NY.NY.CU.Butl.L.33.jpg"/> 
+	</surface>
+</facsimile>
+<text>
+	<body>
+		<div type="edition" xml:lang="la" xml:space="preserve">
+			<ab> 
+			   <lb n="1"/>D<hi rend="tall">i</hi>s Manibus
+               <lb n="2"/><persName> <name type="praenomen" key="Lucius"><expan><abbr>L</abbr><ex>ucii</ex></expan></name> <name type="gentilicium" key="Gavius">Gavi</name> <name type="cognomen" key="Amarantus">Amaranti</name></persName>
+               <lb n="3"/><persName> <name type="gentilicium" key="Claudia">Claudia</name></persName> uxor
+               <lb n="4"/>viro <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+			</ab>
+		</div>
+		<div type="translation" xml:lang="en">
+			<ab>
+					<lb n="1"/>To the Shades of the Underworld
+					<lb n="2"/>of Lucius Gavius Amarantus. Claudia, his wife, made (this) for her well-deserving husband.
+			</ab>
+		</div>
+</body>
+</text>
+</TEI>
