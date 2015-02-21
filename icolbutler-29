@@ -29,7 +29,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         <idno>29</idno>
                     </msIdentifier>
                     <msContents>
-                        <textLang mainLang="gr"/>
+                        <textLang mainLang="grc"/>
                         <msItem class="#funerary.epitaph">
                             <p>Epitaph of </p>
                         </msItem>
@@ -126,12 +126,12 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
     </facsimile>
     <text>
         <body>
-            <div type="edition" xml:lang="gr" xml:space="preserve">
-            <div type="textpart" subtype="body">
+            <div type="edition" xml:lang="grc" xml:space="preserve">
 <ab>
-<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"></gap><gap reason="lost" extent="unknown" unit="character"/>
-<lb n="2" break="no"/>ΔΕ ΒΙΟΣ ΜΟΙ Σ<supplied reason="lost" cert="low">YI</supplied><gap reason="lost" extent="unknown" unit="character"/>
-<lb n="3" break="no"/>ΕΤΕΡΟΙΣ ΕΝΘΑ ΛI<supplied reason="lost" cert="low">θΟΣ</supplied
+<gap reason="lost" extent="unknown" unit="line"/>
+<lb n="1"/><gap reason="lost" quantity="8" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" quantity="unknown" unit="character"/>
+<lb n="2"/>δε βίος μοι σ<unclear reason="damage">υ</unclear><supplied reason="lost">ν</supplied><gap reason="lost" extent="unknown" unit="character"/>
+<lb n="3"/>ἑτέροις ΕΝΘΑ ΛI<supplied reason="lost" cert="low">θΟΣ</supplied
 <lb n="4" break="no"/>ΛΩΝ ΘΑΠΤΕ ΤΥ<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="5" break="no"/>ΓΥΝΗ ΜΕ ΕΤΟΣ ΤΕ<gap reason="lost" extent="unknown" unit="character"/>
 <lb n="6" break="no"/><supplied reason="lost" cert="low">ΠΕΝΤΕ</supplied>ΚΟΣΤΟΝ ΑΓΟΝΤΑ
@@ -142,7 +142,6 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                <lb n="1">...and life to me, with the others there, a stone, my wife Ty[...] buried me here when I was in my fiftieth year</lb>
             </ab>
          </div>
-        </div> 
         </body>
     </text>
 </TEI>
