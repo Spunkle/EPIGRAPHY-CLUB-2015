@@ -109,7 +109,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                   </history>
                   
                   ***If you have any other info that you're confused about - check the log for help / ask!***-->
-                        <summary><!-- If your inscription has never been published before, not even in Olcott's hand-written catalogue, use this boilerplate -->
+                        <summary><!-- If your inscription has never been published before, not even in Olcott's hand-written catalogue, use what follows as the boilerplate. -->
                             There is no information about the provenance of this object prior to its appearance in the Columbia University collection.</summary>
                         <origin>
                             <origPlace type="location">Unknown</origPlace>
