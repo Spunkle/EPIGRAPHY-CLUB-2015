@@ -90,7 +90,6 @@
                         </surrogates>
                     </additional>
                 </msDesc>
-                <!-- We can use this code below or simply point to a stable ID i.e. "#CU_Quarterly", as I've pasted above under <provenance>, and I recommend having some kind of boiler plate text for these unpublished inscriptions in , cf. e.g. #424. -->
                 <listBibl>
                     <bibl type="j" xml:id="CU_Quarterly">
                         <title>Columbia University Quarterly</title>
