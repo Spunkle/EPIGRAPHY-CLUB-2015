@@ -1,6 +1,5 @@
-<?oxygen
-   RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
- 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -79,13 +78,12 @@
                             <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
                         </provenance>
                         <provenance type="observed" notAfter="1901-04"><p>Purchased by the Drisler Fund for Columbia University as mentioned in the Spring edition of the 1901 Columbia Quarterly.</p></provenance>
-                        <!-- suggest semantically linking to the bibliography here too i.e.
-                            <provenance type="observed" subtype="recorded" notAfter="1901-03-31">
+                        <provenance type="observed" subtype="recorded" notAfter="1901-03-31">
                                 <ab>Recorded as being in the possession of the Latin department in 
                                     <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly"/><title>The Columbia University Quarterly</title>, <date>March 1901</date>, pp.<biblScope type="pp">189</biblScope>
                                     </bibl>.
                                  </ab>
-                        </provenance>-->
+                        </provenance>
                     </history>
                     <additional>
                         <surrogates>
@@ -94,18 +92,18 @@
                 </msDesc>
                 <!-- We can use this code below or simply point to a stable ID i.e. "#CU_Quarterly", as I've pasted above under <provenance>, and I recommend having some kind of boiler plate text for these unpublished inscriptions in , cf. e.g. #424. -->
                 <listBibl>
-                    <bibl xml:id="ColumbiaQuarterly">
-                        <title level="j">Columbia University Quarterly</title>
-                        <date>1900</date>
+                    <bibl type="j" xml:id="CU_Quarterly">
+                        <title>Columbia University Quarterly</title>
+                    <bibl type="v" xml:id="CU_Quarterly_3">
+                        <date when="1901-03">March 1901</date>
                         <biblScope type="vol">3</biblScope>
                         <biblScope type="issue">1</biblScope>
                         <biblScope type="pp">189-190</biblScope>
+                    <bibl type="a" xml:id="CU_Quarterly_Peck">
+                        <author><persName>Harry Thurston Peck</persName></author>
+                        <ref target="http://books.google.com/books?id=vz8jAQAAIAAJ">University -- School of Philosophy -- Department of Latin</ref>
                     </bibl>
-                    <bibl xml:id="CIL_VI">
-                        <biblScope type="item">14417</biblScope>
                     </bibl>
-                    <bibl xml:id="ICUR_I">
-                        <biblScope type="item">03455</biblScope>
                     </bibl>
                 </listBibl>
             </sourceDesc>
