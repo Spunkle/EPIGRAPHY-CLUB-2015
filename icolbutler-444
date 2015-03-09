@@ -1,0 +1,137 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NY.NY.CU.Butl.L.444</title>
+            <editor>Joe Sheppard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Columbia University</authority>
+            <idno type="filename">icolbutler-444</idno>
+            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.444">NY.NY.CU.Butl.L.444</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2014 by Columbia University</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
+                    License. To view a copy of this license, visit
+                    http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                    Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                    USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <region>NY</region>
+                  <settlement>NY</settlement>
+                  <institution>CU</institution>
+                  <repository>Butl</repository>
+                  <idno>444</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem class="#funerary.epitaph">
+                     <p>Epitaph of Nigrio(s) Aequidicus (?)</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="#tablet">
+                     <supportDesc ana="metal.lead">
+                        <support>
+                           <p>
+                              <seg type="material">lead</seg>
+                              <seg type="type">broken tablet</seg>
+                           </p>
+                              <dimensions type="surface" unit="cm">
+                                 <width>22</width>
+                                 <height>23</height>
+                                 <depth>0.2</depth>
+                              </dimensions>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Dull, pliable lead, with some traces of a greenish blue at the back, perhaps suggesting a coppor alloy. The top left-hand corner has been broken off, a rectangle approximately ca. 6.0 by 7.5 cm., but the general size of the tablet can be projected. Small parts of the edges have been folded over the front surface. Six small holes puncture the object without loss to the text. The varying thickness of the tablet and contours of the back surface give the impression that holes have been patched at a later period with poured lead. Many letters are so worn they are difficult to read.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="10">
+                           <p>The first line is roughly centred. The next four lines are well spaced out, with spare room at the right margin, but the words of the remaining lines run almost to the edge of the support. Interpuncts appear to have been used regularly between words within each line.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="#protruding.molded">
+                     <handNote>Letters in shallow relief without serifs, appear to have formed when the lead was originally poured. The first and third strokes of the N slope slightly to the right as they ascend. The bottom line seems to have been cast imperfectly or worn excessively, since the lowest parts of most letters do not remain.</handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary>Entered Columbia's holdings by March 1901, although full provenance is unknown.</summary>
+                  <origin>
+                     <origPlace type="location"/>
+                     <origDate notBefore="-0100" notAfter="0001" cert="low">first century BCE</origDate>
+                  </origin>
+                  <provenance type="observed" subtype="recorded" notAfter="1901-03-31">
+                     <ab>Recorded as being in the possession of the Latin department in <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly"/><title>The Columbia University Quarterly</title>, <date>March 1901</date>, pp.<biblScope type="pp">189</biblScope></bibl>.</ab>
+                  </provenance>
+                  <provenance type="observed" notAfter="2011-09-01">
+                     <ab>Identified in the Butler library collection not later than 1 September 2011.</ab>
+                     <note>The unusual medium and production, i.e. a lead funeral tablet with letters in relief, and lack of provenance for the object points suggests the object was a kind of draft model, a counterfeit, or some other anomaly, cf. NY.NY.CU.Butl.L.424</note>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2013-07-23" who="JS">translated initial data to EpiDoc</change>
+         <change when="2014-11-14" who="JS">revision of first draft; request for further revision by another editor</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+      <surface>
+         <desc/>
+         <graphic url="NY.NY.CU.Butl.L.444.jpg"/>
+      </surface>
+   </facsimile>
+   <text><!-- I'd like some feedback on this text and translation because it involves some interpretation and I don't know how speculative or crazy it is (JS) -->
+      <body>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab>
+               <lb n="1"/><hi rend="small"><expan><abbr>D</abbr><ex>is</ex></expan><space quantity="2" unit="character"/><expan><abbr>M</abbr><ex>anibus</ex></expan><space quantity="2" unit="character"/> <choice><sic>C</sic><corr cert="low"><expan><abbr>S</abbr><ex>acrum</ex></expan></corr></choice></hi>
+               <lb n="2"/><gap reason="lost" extent="2" unit="character"/><supplied reason="lost" cert="high">s</supplied>alve tibi viator
+               <lb n="3"/><supplied reason="lost" cert="high">si ti</supplied>tulum meum
+               <lb n="4"/><supplied reason="lost" cert="high">a</supplied><unclear>gno</unclear>sce<unclear>r</unclear>e cupis
+               <lb n="5"/><persName><name type="praenomen"><gap reason="illegible" unit="character" extent="1"/></name> <name type="gentilicium" key="Nigrio">N<unclear>ig</unclear>rio</name> <name type="cognomen" key="Aequidicus">Ae<unclear>q</unclear>u<unclear>i</unclear>d<unclear>ic</unclear>us</name></persName>
+               <lb n="6"/>fui. valui dum vi<unclear>x</unclear>i et
+               <lb n="7"/>bene habui. <name key="Bacchus">Ba<unclear>c</unclear>cho</name> et
+               <lb n="8"/>sopori dicavi felices
+               <lb n="9"/>annos. <unclear>a</unclear>, <orig>miser!</orig> hora
+               <lb n="10"/>br<unclear>e</unclear>vis tot tu<unclear>l</unclear>it <expan><abbr>v</abbr><ex>ale</ex></expan>.
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab>Sacred to the Shades of the Dead. Greetings to you, traveler! If you wish to identify my inscription, I was Nigrio Aequidicus. I was healthy while I was alive, and I fared well. I devoted happy years to Bacchus / wine and to slumber. Ah, a wretch! A brief hour carried off so many things(?). Goodbye!</ab>
+         </div>
+      </body>
+   </text>
+</TEI>
