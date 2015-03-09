@@ -14,7 +14,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.444">NY.NY.CU.Butl.L.444</idno>
             <availability>
                <licence target="http://creativecommons.org/licenses/by/3.0/">
-                  <p>Copyright (c) 2014 by Columbia University</p>
+                  <p>Copyright (c) 2015 by Columbia University</p>
                   <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
                     License. To view a copy of this license, visit
                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
@@ -70,17 +70,16 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                   </decoDesc>
                </physDesc>
                <history>
-                  <summary>Entered Columbia's holdings by March 1901, although full provenance is unknown.</summary>
+                  <summary>This lead inscription had entered Columbia's holdings by March 1901, although its prior provenance is unknown. The unusual medium and production technique (i.e. a lead funeral tablet with letters in relief), and lack of provenance for the object, suggests its creation as a kind of draft model, a counterfeit, or some other anomaly, cf. NY.NY.CU.Butl.L.424</summary>
                   <origin>
                      <origPlace type="location"/>
                      <origDate notBefore="-0100" notAfter="0001" cert="low">first century BCE</origDate>
                   </origin>
                   <provenance type="observed" subtype="recorded" notAfter="1901-03-31">
-                     <ab>Recorded as being in the possession of the Latin department in <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly"/><title>The Columbia University Quarterly</title>, <date>March 1901</date>, pp.<biblScope type="pp">189</biblScope></bibl>.</ab>
+                     <ab>Recorded as being in the possession of the Latin department in the March, 1901 edition of the <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly">Columbia University Quarterly</ptr>, pp.<biblScope type="pp">189</biblScope></bibl>.</ab>
                   </provenance>
                   <provenance type="observed" notAfter="2011-09-01">
-                     <ab>Identified in the Butler library collection not later than 1 September 2011.</ab>
-                     <note>The unusual medium and production, i.e. a lead funeral tablet with letters in relief, and lack of provenance for the object points suggests the object was a kind of draft model, a counterfeit, or some other anomaly, cf. NY.NY.CU.Butl.L.424</note>
+                     <ab>Identified in the Butler library collection no later than 1 September 2011.</ab>
                   </provenance>
                </history>
                <additional>
@@ -113,7 +112,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
          <graphic url="NY.NY.CU.Butl.L.444.jpg"/>
       </surface>
    </facsimile>
-   <text><!-- I'd like some feedback on this text and translation because it involves some interpretation and I don't know how speculative or crazy it is (JS) -->
+   <text>
       <body>
          <div type="edition" xml:lang="la" xml:space="preserve">
             <ab>
@@ -130,7 +129,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             </ab>
          </div>
          <div type="translation" xml:lang="en">
-            <ab>Sacred to the Shades of the Dead. Greetings to you, traveler! If you wish to identify my inscription, I was Nigrio Aequidicus. I was healthy while I was alive, and I fared well. I devoted happy years to Bacchus / wine and to slumber. Ah, a wretch! A brief hour carried off so many things(?). Goodbye!</ab>
+            <ab>(Sacred?) to the Shades of the Dead. Greetings to you, traveller! If you wish to identify my inscription, I was Nigrio (?) Aequidicus. I was healthy while I was alive, and I fared well. I devoted happy years to Bacchus and to slumber. Ah, a wretch! A brief hour carried off so many things(?). (Farewell!)</ab>
          </div>
       </body>
    </text>
