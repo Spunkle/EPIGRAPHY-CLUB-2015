@@ -81,12 +81,12 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                                 <height unit="cm" min="2.5" max="2.7">2.5 - 2.7</height>
                             </handNote>
                             <handNote ana="blank">
-                                <p> The capitals are rustic in style (note, e.g., the formation of "M" and "V"). While the hand is largely consistent (the letters are generally spaced evenly and of a similar dimension), there is some variation in lettering, which is especially visible in the rendering of the letter M. Variety is also visible in the appearance of the interpuncts (slashes and points are both present) and they do not have a consistent depth, though this may be the product of wear on the surface. The hederae (discussed below) are likewise not consistent. However, there is no clear evidence for suggesting that this epitaph is the product of multiple hands.</p>
+                                The capitals are rustic in style (note, e.g., the formation of "M" and "V"). While the hand is largely consistent (the letters are generally spaced evenly and of a similar dimension), there is some variation in lettering, which is especially visible in the rendering of the letter M. Variety is also visible in the appearance of the interpuncts (slashes and points are both present) and they do not have a consistent depth, though this may be the product of wear on the surface. The hederae (discussed below) are likewise not consistent. However, there is no clear evidence for suggesting that this epitaph is the product of multiple hands.
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote ana="#blank">
-                                <p> At the end of each of the first two lines of the main body of text within the incised frame, there is a hedera. These "hederae" are irregular and inconsistent in shape. While they are roughly the same size (3.3cm vs. 3.5cm measured on the diagonal), the first hedera is topped with a hook curving to the left, while the second remains straight. There are also small traces of paint visible.</p>
+                                At the end of each of the first two lines of the main body of text within the incised frame, there is a hedera. These "hederae" are irregular and inconsistent in shape. While they are roughly the same size (3.3cm vs. 3.5cm measured on the diagonal), the first hedera is topped with a hook curving to the left, while the second remains straight. There are also small traces of paint visible.
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -127,6 +127,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <change when="2014-08-15" who="EMH">Added descriptive metadata, tags; edited text and translation.</change>
             <change when="2014-08-20" who="EMH">Edited code, added dates, with input from JS.</change>
             <change when="2015-02-27" who="EMH">Removed cm markings where unnecessary, slightly edited history to match boilerplate.</change>
+            <change when="2015-03-13" who="EMH">Fixed expansion problem in transcription, finalized translation, deleted unnecessary code elements.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -151,13 +152,13 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
 <lb n="3" break="no"/>tissimae <persName><persName><name type="gentilicium" key="Aelius">Aeli<hi rend="tall">i</hi></name> <persName><name type="praenomen" key="Publius">Publi</name></persName>
 <lb n="4"/> fili <name type="cognomen" key="Nigrinus">Nigrinus</name></persName> et <name type="cognomen" key="Augurina">Augu
 <lb n="5" break="no"/>rina</name></persName> fecerunt liber
-<lb n="6" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> posteris
-<lb n="7" break="no"/><expan><abbr>q</abbr><ex>ue</ex></expan> eorum.<space quantity="11" unit="character"/></ab>
+<lb n="6" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> <expan><abbr>posteris
+<lb n="7" break="no"/>q</abbr><ex>ue</ex></expan> eorum.<space quantity="11" unit="character"/></ab>
          </div>
          <div type="translation" xml:lang="en">
             <ab>
                <lb n="1"/>To the sacred shades.
-               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, Aelius Nigrinus and Aelia Augurina, children of Publius, made (this) and for her/their freedmen, freedwomen, and their descendants.
+               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, Aelius Nigrinus and Aelia Augurina, children of Publius, made (this) and for her freedmen, freedwomen, and their descendants.
             </ab>
          </div>
         </div> 
