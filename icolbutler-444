@@ -40,7 +40,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                </msContents>
                <physDesc>
                   <objectDesc ana="#tablet">
-                     <supportDesc ana="metal.lead">
+                     <supportDesc ana="#metal.lead">
                         <support>
                            <p>
                               <seg type="material">lead</seg>
@@ -52,7 +52,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                                  <depth>0.2</depth>
                               </dimensions>
                         </support>
-                        <condition ana="fragment.single">
+                        <condition ana="#fragment.single">
                            <p>Dull, pliable lead, with some traces of a greenish blue at the back, perhaps suggesting a coppor alloy. The top left-hand corner has been broken off, a rectangle approximately ca. 6.0 by 7.5 cm., but the general size of the tablet can be projected. Small parts of the edges have been folded over the front surface. Six small holes puncture the object without loss to the text. The varying thickness of the tablet and contours of the back surface give the impression that holes have been patched at a later period with poured lead. Many letters are so worn they are difficult to read.</p>
                         </condition>
                      </supportDesc>
@@ -76,7 +76,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                      <origDate notBefore="-0100" notAfter="0001" cert="low">first century BCE</origDate>
                   </origin>
                   <provenance type="observed" subtype="recorded" notAfter="1901-03-31">
-                     <ab>Recorded as being in the possession of the Latin department in the March, 1901 edition of the <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly">Columbia University Quarterly</ptr>, pp.<biblScope type="pp">189</biblScope></bibl>.</ab>
+                     <ab>Recorded as being in the possession of the Latin department in the March, 1901 edition of the <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly"/>Columbia University Quarterly, pp.<biblScope type="pp">189</biblScope></bibl>.</ab>
                   </provenance>
                   <provenance type="observed" notAfter="2011-09-01">
                      <ab>Identified in the Butler library collection no later than 1 September 2011.</ab>
