@@ -1,0 +1,167 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>   
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.419</title>
+                <editor>Elizabeth Heintges</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-419</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.419">NY.NY.CU.Butl.L.419</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2015 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>419</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/>
+                        <msItem class="#funerary.epitaph">
+                            <p>Epitaph of Pompeia Augurina</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#stone.marble">
+                                <support>
+                                    <seg type="material">marble</seg>
+                                    <seg type="form"></seg>
+                                    <p>Thick marble slab with handle cut out on the left side. The handle measures 23x6 cm. It is oval at the top but is turned down at the bottom edges, which also show some signs of wear. Tool marks are visible inside the handle. The back of the slab is roughly chiseled for bonding. There are also light traces of gray plaster.</p>
+
+                                    <dimensions type="surface" unit="cm">
+                                        <width>61.6</width>
+                                        <height>36.1</height>
+                                        <depth>6.0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments.contig">
+                                    <p>The top left corner of the tablet (containing D. and the top part of the handle) has broken off the remainder of the tablet. Additionally, the right-hand side of the tablet is not fully intact - while the main text has been preserved, the M. is only partially visible, and the corresponding handle on the right side has broken off.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="8">
+                                    <p>The campus, located within a thinly incised frame, contains the majority of the text (7 lines). D. M. is placed in the margins outside of this frame. These two letters, comparable in size to the rest of the text, are positioned in the top right and left hand corners, respectively, and are equidistant from the campus. The top of each letter lies on the same horizontal axis as the top part of the frame. Guide lines are visible in the main body of text, which is largely evenly laid out (barring the final line, which ends halfway across). </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                            <handNote> D.
+                                <height unit="cm">2.8</height>
+                            </handNote>
+                            <handNote> M.
+                                <height unit="cm">2.4</height>
+                            </handNote>
+                            <handNote> P-longa in line 1 of campus
+                                <height unit="cm">3.5</height>
+                            </handNote>
+                            <handNote> Other letter heights line 1
+                                <height unit="cm" min="2.5" max="2.8">2.5 - 2.8</height>
+                            </handNote>
+                            <handNote> Letter heights, line 2
+                                <height unit="cm" min="2.2" max="2.5">2.2 - 2.5</height>
+                            </handNote>
+                            <handNote> Letter height, lines 3-5
+                                <height unit="cm">3.0</height>
+                            </handNote>
+                            <handNote> Letter heights, lines 6-7
+                                <height unit="cm" min="2.5" max="2.7">2.5 - 2.7</height>
+                            </handNote>
+                            <handNote ana="blank">
+                                The capitals are rustic in style (note, e.g., the formation of "M" and "V"). While the hand is largely consistent (the letters are generally spaced evenly and of a similar dimension), there is some variation in lettering, which is especially visible in the rendering of the letter M. Variety is also visible in the appearance of the interpuncts (slashes and points are both present) and they do not have a consistent depth, though this may be the product of wear on the surface. The hederae (discussed below) are likewise not consistent. However, there is no clear evidence for suggesting that this epitaph is the product of multiple hands.
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote ana="#blank">
+                                At the end of each of the first two lines of the main body of text within the incised frame, there is a hedera. These "hederae" are irregular and inconsistent in shape. While they are roughly the same size (3.3cm vs. 3.5cm measured on the diagonal), the first hedera is topped with a hook curving to the left, while the second remains straight. There are also small traces of paint visible.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                        There is no information about the provenance of this object prior to its appearance in the Columbia University collection.</summary>
+                        <origin>
+                            <origPlace type="location">Unknown</origPlace>
+                            <origDate notBefore="0100" notAfter="0299">Second or third century CE.</origDate>
+                        </origin>
+                        <provenance type="observed" notAfter="2012-10-19">
+                            <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates/>
+                    </additional>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#unpub"/>
+                        <biblScope type="item"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change when="2014-05-29" who="EMH">EMH marked up.</change>
+            <change when="2014-06-05" who="EMH">EMH added text and translation.</change>
+            <change when="2014-08-15" who="EMH">Added descriptive metadata, tags; edited text and translation.</change>
+            <change when="2014-08-20" who="EMH">Edited code, added dates, with input from JS.</change>
+            <change when="2015-02-27" who="EMH">Removed cm markings where unnecessary, slightly edited history to match boilerplate.</change>
+            <change when="2015-03-13" who="EMH">Fixed expansion problem in transcription, finalized translation, deleted unnecessary code elements.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url="NY.NY.CU.Butl.L.419.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" subtype="border">
+               <ab>
+                 <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+               </ab>
+            </div>
+            <div type="textpart" subtype="body">
+<ab>
+<lb n="1"/><persName><name type="gentilicium" key="Pompeia"><hi rend="tall">P</hi>ompeiae</name> <persName><name type="praenomen" key="Gnaeus"><expan><abbr>Gn</abbr><ex>aei</ex></expan></name></persName>  <expan><abbr>fil</abbr><ex>iae</ex></expan> <name type="cognomen" key="Augurina">Au<g type="hedera"/>
+<lb n="2" break="no"/>gurinae</name></persName> matri pien
+<lb n="3" break="no"/>tissimae <persName><persName><name type="gentilicium" key="Aelius">Aeli<hi rend="tall">i</hi></name> <persName><name type="praenomen" key="Publius">Publi</name></persName>
+<lb n="4"/> fili <name type="cognomen" key="Nigrinus">Nigrinus</name></persName> et <name type="cognomen" key="Augurina">Augu
+<lb n="5" break="no"/>rina</name></persName> fecerunt liber
+<lb n="6" break="no"/>tis <expan><abbr>libertabusq</abbr><ex>ue</ex></expan> <expan><abbr>posteris
+<lb n="7" break="no"/>q</abbr><ex>ue</ex></expan> eorum.<space quantity="11" unit="character"/></ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab>
+               <lb n="1"/>To the sacred shades.
+               <lb n="2"/>For Pompeia Augurina, daughter of Gnaeus, most pious mother, Aelius Nigrinus and Aelia Augurina, children of Publius, made (this) and for her freedmen, freedwomen, and their descendants.
+            </ab>
+         </div>
+        </div> 
+        </body>
+    </text>
+</TEI>
