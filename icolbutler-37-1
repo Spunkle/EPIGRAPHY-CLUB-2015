@@ -16,7 +16,7 @@
 				<availability>
 					<licence target="http://creativecommons.org/licenses/by/3.0/">
 						<p>Copyright (c) 2012 by Columbia University</p>
-						<p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a 								copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to 									Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+						<p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
 					</licence>
 				</availability>
 			</publicationStmt>
@@ -45,8 +45,8 @@
 									</p>
 									<dimensions type="surface" unit="cm">
 										<width>20.5</width>
-										<height>9-7.6</height>
-										<depth>3.5-1.5</depth>
+										<height>7.6-9.0</height>
+										<depth>1.5-3.5</depth>
 									</dimensions>
 								</support>
 								<condition ana="#complete">
@@ -115,20 +115,18 @@
 	<text>
 		<body>
 			<div type="edition" xml:lang="la" xml:space="preserve">
-			<div type="textpart" subtype="body">
 			   <ab>
-               <lb n="1"/><persName><name type="praenomen" key="Gaius"><expan><abbr>C</abbr><ex>aius</ex></expan></name><g type="interpunct"/><name type="gentilicium" key="Plotius">Plotius</name><g type="interpunct"></g><expan><abbr>C</abbr><g type="interpunct"/><ex>aii</ex></expan> <expan><abbr>L</abbr><ex>ibertus</ex></expan><g type="interpunct"/>
-               <lb n="2"/> <name type="cognomen" key="Antiochus">Antiochus</name></persName><g type="interpunct"/>
-               <lb n="3"/> <persName> <name type="cognomen" key="Dionisia">Dionisia</name></persName>
+               <lb n="1"/><persName><name type="praenomen" key="Gaius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g type="interpunct"/> <name type="gentilicium" key="Plotius">Plotius</name> <g type="interpunct"/><expan><abbr>C</abbr><ex>aii</ex></expan> <g type="interpunct"/> <expan><abbr>L</abbr><ex>ibertus</ex></expan><g type="interpunct"/>
+               <lb n="2"/> <name type="cognomen" key="Antiochus">Antiochus</name></persName> <g type="interpunct"/>
+               <lb n="3"/> <persName><name type="cognomen" key="Dionisia">Dionisia</name></persName>
             </ab>
          </div>
          <div type="translation" xml:lang="en">
             <ab>
-         		<lb n="1"/>Gaius Plotius, freedman of Gaius
-					<lb n="2"/>Antiochus
-					<lb n="3"/>Dionisia (made this)
+         		<lb n="1"/>Gaius Plotius, freedman of Gaius,
+					<lb n="2"/>Antiochus.
+					<lb n="3"/>Dionisia (made this).
 				</ab>
-			</div>
 			</div>
 		</body>
 	</text>
