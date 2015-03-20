@@ -55,7 +55,7 @@
 							</supportDesc>
 							<layoutDesc>
 								<layout columns="1" writtenLines="3">
-									<p>increasing left margin</p>
+									<p>The left margin increases in size from the first to last line.</p>
 								</layout>
 							</layoutDesc>
 					</objectDesc>
@@ -70,10 +70,10 @@
 					</decoDesc>
 				</physDesc>
 				<history>
-					<summary>George N. Olcott claims this inscription came "From Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+					<summary>George N. Olcott records this inscription as "From Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
 					<origin>
-				   	<placeName ref="europe.italy.rome">Rome, Italy</placeName>
-						<origPlace type="location">Via Salaria</origPlace>
+				   	<placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+						<origPlace type="necropolis">necropolis on the Via Salaria</origPlace>
 						<origDate notBefore="0001" notAfter="0100">First century CE</origDate>
 					</origin>
 					<provenance type="observed" notAfter="2011-09-01">
@@ -116,9 +116,9 @@
 		<body>
 			<div type="edition" xml:lang="la" xml:space="preserve">
 			   <ab>
-               <lb n="1"/><persName><name type="praenomen" key="Gaius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g type="interpunct"/> <name type="gentilicium" key="Plotius">Plotius</name> <g type="interpunct"/><expan><abbr>C</abbr><ex>aii</ex></expan> <g type="interpunct"/> <expan><abbr>L</abbr><ex>ibertus</ex></expan><g type="interpunct"/>
-               <lb n="2"/> <name type="cognomen" key="Antiochus">Antiochus</name></persName> <g type="interpunct"/>
-               <lb n="3"/> <persName><name type="cognomen" key="Dionisia">Dionisia</name></persName>
+               <lb n="1"/><persName><name type="praenomen" key="Gaius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g type="interpunct"/> <name type="gentilicium" key="Plotius">Plotius</name> <g type="interpunct"/><expan><abbr>C</abbr><ex>aii</ex></expan> <g type="interpunct"/> <expan><abbr>l</abbr><ex>ibertus</ex></expan><g type="interpunct"/>
+               <lb n="2"/><name type="cognomen" key="Antiochus">Antiochus</name></persName> <g type="interpunct"/>
+               <lb n="3"/><persName><name type="cognomen" key="Dionisia">Dionisia</name></persName>
             </ab>
          </div>
          <div type="translation" xml:lang="en">
