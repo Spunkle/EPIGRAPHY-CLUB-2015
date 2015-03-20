@@ -1,0 +1,169 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NY.NY.CU.Butl.L.416</title>
+            <editor>Elizabeth Heintges</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Columbia University</authority>
+            <idno type="filename">icolbutler-416</idno>
+            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.416">NY.NY.CU.Butl.L.416</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2015 by Columbia University</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <region>NY</region>
+                  <settlement>NY</settlement>
+                  <institution>CU</institution>
+                  <repository>Butl</repository>
+                  <idno>416</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem class="#verse #funerary.epitaph">
+                     <p>Funerary epitaph (?) with Vergilian quotation</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#stone.marble">
+                        <support>
+                           <p>
+                              <seg type="material">Marble</seg>
+                              <seg type="form">Slab</seg>
+                           </p>
+                           <dimensions type="surface" unit="cm">
+                              <width>44.2</width>
+                              <height>32.2</height>
+                              <depth>3.2</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#complete">
+                           <p>Stone slightly chipped or worn along the borders. The text is not affected.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="10">
+                           <p>Hyphenation (unnecessary) in line 5; spacing; hederae.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="#impressed.inscribed.chiseled">
+                     <handNote/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote ana="#blank">
+                        <p>Traces of red paint; fine lettering.</p>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary>Entered Columbia's holdings by 1901, although full provenance is unknown.</summary>
+                  <origin>
+                     <origPlace type="location">Unknown</origPlace>
+                     <origDate notBefore="0100" notAfter="1900" evidence="#lettering #prosopography">2nd century CE? Fake?</origDate>
+                  </origin>
+                  <provenance type="observed" notAfter="1901-04-01"><bibl>Noted<ptr type="rest-of-bibl" target="#CU_Quarterly_Peck"/><biblScope type="pp">190</biblScope></bibl> as part of a number of inscriptions purchased by Columbia's Department of Latin by means of the Drisler Fund and translated (though the text was not supplied).</provenance>
+                  <provenance type="observed" notAfter="2012-10-19">
+                     <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <listBibl>               
+                  <bibl type="j" xml:id="CU_Quarterly">
+                     <title>Columbia University Quarterly</title>
+                     <bibl type="v" xml:id="CU_Quarterly_3">
+                     <date when="1901-03">March 1901</date>
+                     <biblScope type="vol">3</biblScope>
+                     <biblScope type="issue">1</biblScope>
+                     <biblScope type="pp">189-190</biblScope>
+                     <bibl type="a" xml:id="CU_Quarterly_Peck">
+                     <author>
+                        <persName>Harry Thurston Peck</persName>
+                     </author>
+                        <ref target="http://books.google.com/books?id=vz8jAQAAIAAJ"> University -- School of Philosophy -- Department of Latin</ref>
+                  </bibl>
+                     </bibl>
+                  </bibl>
+               <bibl>
+                  <ptr type="rest-of-bibl" target="#unpub"/>
+                  <biblScope type="item"/>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2014-05-08" who="EMH">EMH marked up with JS.</change>
+         <change when="2014-09-12" who="EMH">Added facsmile image template</change>
+         <change when="2014-09-19" who="JS">proofread with suggestions listed as comments</change>
+         <change when="2015-03-20" who="EMH">Added some changes suggested by JS</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+      <surface>
+         <desc/>
+         <graphic url="NY.NY.CU.Butl.L.416.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+               <ab>
+                  <lb n="1"/>Tuqu<surplus>a</surplus>e, o sanctis
+                  <lb n="2" break="no"/>sima coniunx, felix
+                  <lb n="3"/> morte tua neque in
+                  <lb n="4"/> hunc servata dolore<supplied reason="undefined" evidence="parallel">m</supplied>!
+                  <lb n="5"/> ne crudelis fili fac <g type="hedera"/>
+                  <lb n="6" break="no"/>ta videres <g type="hedera"/> <space quantity="2" unit="character"/>
+                  <lb n="7"/> et vos felices dulcissi
+                  <lb n="8" break="no"/>mae filiae relicto fra
+                  <lb n="9" break="no"/>tre indigno nomine
+                  <lb n="10"/> <space quantity="3" unit="character"/> vestro <space quantity="4" unit="character"/>
+               </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab>
+               <lb n="1"/>And you, o most sacred wife,
+               <lb n="2"/>fortunate in your death, not reserved for this grief,
+               <lb n="3"/>may you not see the deeds of [your] cruel son, 
+               <lb n="4"/>and you, fortunate sweetest daughters, with a brother left behind, 
+               <lb n="5"/>unworthy of your name.
+            </ab>
+         </div>
+         <div type="apparatus" xml:lang="en">
+            <ab> 
+               <app>
+                  <note>The final words could read "in digno nomine," rendering a translation "in your worthy name."</note>
+                  <note>The first four lines of this inscription quote <name ref="http://viaf.org/viaf/8194433/#Virgil">Vergil</name>, <emph>Aeneid</emph> <!-- Perhaps there's some way to quote the text here, I don't know, <ref>? I like the idea at least of having a string of the standard reference from OLD or OCD or whatever, i.e. Verg. Aen. 11.158-9 because that's also human-readable / what a person would search for. --> 11.158-9.</note>
+               </app>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
