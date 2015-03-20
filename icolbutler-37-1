@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model "http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="application.xml" 		
+   schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>NY.NY.CU.Butl.L.37</title>
+					<editor>Joe Sheppard</editor>
+					<editor>Erin Petrella</editor>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Columbia University</authority>
+				<idno type="filename">icolbutler-37</idno>
+				<idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.37">NY.NY.CU.Butl.L.37</idno>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/3.0/">
+						<p>Copyright (c) 2012 by Columbia University</p>
+						<p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<region>NY</region>
+						<settlement>NY</settlement>
+						<institution>CU</institution>
+						<repository>Butl</repository>
+						<idno>37</idno>
+					</msIdentifier>
+					<msContents>
+						<textLang mainLang="la"/>
+						<msItem class="#funerary.epitaph">
+							<p>Epitaph of Gaius Plotius Antiochus</p>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc ana="#slab">
+							<supportDesc ana="#stone.marble">
+								<support>
+									<p>
+										<seg type="material">marble</seg>
+										<seg type="form">irregular slab</seg>
+									</p>
+									<dimensions type="surface" unit="cm">
+										<width>20.5</width>
+										<height>7.6-9.0</height>
+										<depth>1.5-3.5</depth>
+									</dimensions>
+								</support>
+								<condition ana="#complete">
+									<p>Perhaps small chip from top left corner. Slightly irregular shape as top edge slopes upwards.</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="3">
+									<p>The left margin increases in size from the first to last line.</p>
+								</layout>
+							</layoutDesc>
+					</objectDesc>
+					<handDesc ana="#impressed.inscribed.chiseled">
+						<handNote>While the lettering is somewhat consistent in overall shape, individual letters are roughly cut and the spacing between letters is quite inconsistent. Interpuncts present.
+						</handNote>
+					</handDesc>
+					<decoDesc>
+						<decoNote ana="#blank">
+							<p></p>
+						</decoNote>
+					</decoDesc>
+				</physDesc>
+				<history>
+					<summary>George N. Olcott records this inscription as "From Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+					<origin>
+				   	<placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+						<origPlace type="necropolis">necropolis on the Via Salaria</origPlace>
+						<origDate notBefore="0001" notAfter="0100">First century CE</origDate>
+					</origin>
+					<provenance type="observed" notAfter="2011-09-01">
+						<ab>Identified in the Butler library collection not later than 01 September 2011.</ab>
+					</provenance>
+				</history>
+				<additional>
+					<surrogates/>
+				</additional>
+			</msDesc>
+			<listBibl>
+				<bibl>
+					<ptr type="rest-of-bibl" target="#unpub"/>
+					<biblScope type="item"/>
+				</bibl>
+			</listBibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+		<xi:fallback>
+			<p>Taxonomies for US Epigraphy controlled values</p>
+		</xi:fallback>
+		</xi:include>
+	</encodingDesc>
+	<revisionDesc>
+		<change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+      <change when="2013-02-19" who="JS">translated initial data to EpiDoc</change>
+		<change when="2015-02-26" who="EP">updated EpiDoc and added hand description with input from Joe</change>
+	</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url=""/>
+		<surface>
+			<desc/>
+			<graphic url="NY.NY.CU.Butl.L.37.jpg"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition" xml:lang="la" xml:space="preserve">
+			   <ab>
+               <lb n="1"/><persName><name type="praenomen" key="Gaius"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <g type="interpunct"/> <name type="gentilicium" key="Plotius">Plotius</name> <g type="interpunct"/><expan><abbr>C</abbr><ex>aii</ex></expan> <g type="interpunct"/> <expan><abbr>l</abbr><ex>ibertus</ex></expan><g type="interpunct"/>
+               <lb n="2"/><name type="cognomen" key="Antiochus">Antiochus</name></persName> <g type="interpunct"/>
+               <lb n="3"/><persName><name type="cognomen" key="Dionisia">Dionisia</name></persName>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab>
+         		<lb n="1"/>Gaius Plotius, freedman of Gaius,
+					<lb n="2"/>Antiochus.
+					<lb n="3"/>Dionisia (made this).
+				</ab>
+			</div>
+		</body>
+	</text>
+</TEI>
