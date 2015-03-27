@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.420</title>
+                <editor>Stephen Anthony LaMonica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-420</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.420">NY.NY.CU.Butl.L.420</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2015 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
+                            License. To view a copy of this license, visit
+                            http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                            Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                            USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>420</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/>
+                        <msItem class="#funerary.epitaph">
+                            <p>Epitaph of Primitibus</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#stone.marble">
+                                <support>
+                                    <p><seg type="material">marble</seg>
+                                    <seg type="form">slab</seg></p>
+                                        <dimensions type="surface" unit="cm">
+                                            <height>27.7</height>
+                                            <width>54</width>
+                                            <depth>2</depth>
+                                        </dimensions>
+                                </support>
+                                <condition ana="#complete.broken">
+                                    <p>Some small chipping at the edges but no loss of text.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="8">
+                                    <p>Text in first four written lines larger than final three, faint guidelines throughout. Text added after the original inscription at the end of line 3 and start of line 4 in smaller and crude letters outside measured frame in the vertical margins.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                            <handNote><p>Extra text at the end of line 3 and beginning of line 4 appears to be written in a different hand. In addition to these differences, possibly due to the lack of space, the letter Q has a long tail.</p></handNote></handDesc> 
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>Unknown before purchase by Columbia</summary>
+                        <origin>
+                            <origPlace type="location"/>
+                            <origDate notBefore="0100" notAfter="0300">Second or third century CE</origDate>
+                        </origin>
+                        <provenance type="observed" notAfter="2011-09-01">
+                            <p>Identified in the Butler library collection not later than 1st September 2011.</p>
+                        </provenance>
+                        <provenance type="found" subtype="first-recorded" notAfter="1901-04"><p>Purchased by the Drisler Fund for the Columbia University Latin Department as mentioned in the <bibl><ptr type="rest-of-bibl" target="#CU_Quarterly"/>Spring edition of the 1901 Columbia Quarterly, pp.<biblScope type="pp">189-190</biblScope></bibl>.</p></provenance>
+                    </history>
+                    <additional>
+                        <surrogates>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#unpub"/>
+                        <biblScope type="item"></biblScope>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change when="2014-05" who="SAL">Markup, addition of translation, transcription of original text.</change>
+            <change when="2014-08" who="SAL">Edits to translation and tags in code.  Addition of bibliography and outside sources</change>
+            <change when="2014-09-19" who="EMH">Question re: app crit, fixed a couple coding issues, added facsimile pathway</change>
+            <change when="2015-03-27" who="JS">Final proof.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""></graphic>
+        <surface>
+            <desc/>
+            <graphic url="NY.NY.CU.Butl.L.420.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" subtype="dis_manibus">
+               <ab><lb n="1"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></ab>
+            </div>
+            <div type="textpart" subtype="body">
+               <ab><lb n="1"/><persName><name type="cognomen" key="Faustina">Faustina</name></persName>
+                  <lb n="2"/><choice><reg>coniugi</reg><orig>coiugi</orig></choice> suo dulcissimo
+                  <lb n="3"/><persName><name key="Primitivus" type="cognomen"><choice><reg>Primitivo</reg><orig>Primitibo</orig></choice></name></persName> bene merenti <add place="right">qui <expan><abbr>f</abbr><ex cert="low">uit</ex><note>QUI F ANO, possible abbreviation for qui fuit annorum, as attested in two similar inscriptions discovered near Rome.  See <bibl><ptr type="rest-of-bibl" target="#CIL_VI"/>CIL <biblScope type="item">14417</biblScope></bibl> and <bibl><ptr type="rest-of-bibl" target="#ICUR"/> ICUR <biblScope type="item">ns 1.3455</biblScope></bibl>.</note></expan> <expan><abbr>an</abbr><ex cert="low">n</ex><abbr>o</abbr><ex cert="low">rum</ex></expan></add>
+                  <lb n="4"/><add place="left"><num value="40">XL</num></add> <choice><reg>cum</reg><orig>qum</orig></choice>quo vixit annis <num value="12">XII</num> <expan><abbr>me</abbr><ex>n</ex><abbr>s</abbr><ex>ibus</ex></expan>
+                  <lb n="5"/><num value="8">VIII</num>diebus <num value="7">VII</num> et discentes
+                  <lb n="6"/>fecerunt <persName><name type="cognomen" key="Felix">Felix</name></persName> et <persName><name type="cognomen" key="Maximinus">Maximi
+                  <lb n="7" break="no"/>nus</name></persName> magistro bene merenti.</ab>
+         </div>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>To the Shades of the Dead. Faustina made (this) for her most dear and well-deserving husband Primitivus, who was forty years old, with whom she lived twelve years, eight months, seven days; and also Felix and Maximinus, students, made (this) for their well-deserving teacher.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
