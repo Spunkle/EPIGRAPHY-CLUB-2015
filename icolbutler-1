@@ -123,18 +123,17 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
    <text>
       <body>
          <div type="edition" xml:lang="la" xml:space="preserve">
-            <ab><lb n="1"/>Dis Manibus S<supplied reason="lost" cert="high">acrum</supplied>
+            <ab><lb n="1"/>Dis Manibus s<supplied reason="lost" cert="high">acrum</supplied>
                 <lb n="2"/><persName><name type="praenomen" key="Gaius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name type="gentilicium" key="Clatius">Clatio</name> <name type="cognomen" key="Rufus">Rufo</name></persName> co<supplied reason="lost" cert="low">niugi</supplied>
                 <lb n="3"/>carissimo suo <supplied reason="lost" cert="high">bene</supplied>
-                <lb n="4"/>merenti d<gap reason="lost" extent="8" unit="character" precision="medium"></gap>
-                <lb n="5"/><persName><name type="gentilicium" key="Aurelia">Aur<unclear reason="damage" cert="high">el</unclear></name></persName><gap reason="lost" extent="12" unit="character" precision="low"></gap>
-                <lb n="6"/><gap reason="illegible" extent="1" unit="character"/>
+                <lb n="4"/>merenti d<gap reason="lost" extent="8" unit="character" precision="medium"/>
+                <lb n="5"/><persName><name type="gentilicium" key="Aurelia">Au<unclear reason="damage" cert="high">rel</unclear><supplied reason="lost">ia</supplied></name></persName> <supplied reason="lost" cert="low">fecit</supplied><gap reason="lost" extent="5" unit="character" precision="low"/>
+                <lb n="6"/><choice><unclear>o</unclear><unclear>c</unclear></choice><gap reason="lost" extent="15" unit="character" precision="low"/><gap reason="lost" extent="unknown" unit="line"/>
             </ab>
-            </div>
-         <div type="translation" xml:lang="en">
-            <p>Sacred to the Shades of the Dead.</p><p>Aurel[ia?] (set this up) to Gaius Clatius Rufus, her dearest, well-deserving [husband].</p>
          </div>
-         <div type="bibliography"> <xi:include href="http://dev.stg.brown.edu/projects/usepigraphy/xml/titles.xml"> <xi:fallback> <p>US Ep bibliography</p> </xi:fallback> </xi:include> </div>
+         <div type="translation" xml:lang="en">
+            <p>Sacred to the Shades of the Dead.</p><p>Aurel[ia? set this up] to Gaius Clatius Rufus, her dearest, well-deserving [husband]....</p>
+         </div>
       </body>
    </text>
 </TEI>
