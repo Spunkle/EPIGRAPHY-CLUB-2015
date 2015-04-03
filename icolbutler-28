@@ -1,0 +1,139 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>   
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NY.NY.CU.Butl.G.28</title>
+            <editor>Elizabeth Heintges</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Columbia University</authority>
+            <idno type="filename">icolbutler-28</idno>
+            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.28">NY.NY.CU.Butl.G.28</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2012 by Columbia University</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <region>NY</region>
+                  <settlement>NY</settlement>
+                  <institution>CU</institution>
+                  <repository>Butl</repository>
+                  <idno>28</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph">
+                     <p>Epitaph of Prosdokimos</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#stone.marble">
+                        <support><p>
+ <seg type="material">Marble</seg>
+                           <seg type="form">Broken slab</seg>
+                        Square slab of white marble that appears to have repurposed a previously used stone: the back of the slab is smoothly cut and exhibits molding along its upper edge.</p>
+                              <dimensions type="surface" unit="cm">
+                                 <width>36.5</width>
+                                 <height>38.0</height>
+                                 <depth>3.0</depth>
+                              </dimensions>
+                        </support>
+                        <condition ana="#fragments.contig">
+                          <p>Split into five pieces, the slab is mostly intact, though it is fractured at the top-left and is missing a small piece from the mid-left. The missing pieces, however, have not affected the inscription: the campus is intact. </p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="7">
+                           <p>Top line consists of small Œò¬∑ Œö¬∑ on opposite sides of the line, sharing the same margins as the main text field. Campus has clear distinguished margins from the sides of the slab. There is significant interlinear space between each line, and line breaks coincide with word breaks until the last two lines. The final line is shorter, smaller, and centered.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="#impressed.inscribed.chiseled">
+                     <handNote>
+                        <p>
+                           Well-formed, consistent, and deep-cut lettering. Distinct serifs on several letters (note the tail on the Œî). Lunate sigma, w-shaped capital omega, and cursive mu. Small letters are not limited to the opening Œò¬∑ Œö¬∑: they also appear at the end of the third, fourth, and fifth lines. Presumably, this would have been to ensure that the words of each line were self-contained, but in line 5, the Œë is also small, nestled between two larger Œ§s.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote ana="blank">
+                        <p>Hedera at the end of the final line.</p>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary>Acquired by George N. Olcott from excavations at Via Ostiense in Rome, and subsequently became part of the Columbia collection.</summary>
+                  <origin>
+                     <origPlace type="location">Via Ostiense, Rome.</origPlace>
+                     <origDate notBefore="0100" notAfter="0299">Second (or third?) century CE</origDate>
+                  </origin>
+                  <provenance type="observed" notAfter="2012-10-19">
+                     <ab>Identified in the Butler library collection not later than 19 October 2012.</ab>
+                  </provenance>
+               </history>
+               <additional>
+                  <surrogates>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <listBibl>
+               <bibl>
+                  <bibl xml:id="Olcott_catalog">
+                     <date notBefore="1899">1899</date>
+                     <date notAfter="1912">1912</date>
+                     <author>Olcott</author>
+                     <title>Olcott Collection. Greek and Roman Inscriptions</title>
+                  </bibl>
+                  <ptr type="rest-of-bibl" target="#unpub"/>
+                  <biblScope type="item"/>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2014-11-07" who="EMH">EMH marked up, added metadata, etc.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url=""/>
+      <surface>
+         <desc/>
+         <graphic url="NY.NY.CU.Butl.G.28.jpg"/>
+      </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            <ab>
+               <lb n="1"/><expan><abbr>Œò</abbr><ex>ŒµŒø·øñœÇ</ex></expan> <expan><abbr>Œ∫</abbr><ex>Œ±œÑŒ±œáŒ∏ŒøŒΩŒØŒøŒπœÇ</ex></expan>
+               <lb n="2"/><persName><name key="Œ†œÅŒøœÉŒ¥ŒøŒ∫ŒØ"></name></persName> Œ†œÅŒøœ≤Œ¥ŒøŒ∫ŒØŒºœâŒπ
+               <lb n="3"/>Œ§Œ±œÅœ≤Œ∑Œπ Œ∏Œ±ŒΩœåŒΩœÑŒπ
+               <lb n="4"/>·ºîœÑœâŒΩ Œ¥ŒµŒ∫Œ±ŒøŒ∫œÑœé
+               <lb n="5"/>·ΩëŒπ·ø∂ œáœÅŒ∑œ≤œÑŒøœÑŒ¨œÑœâ
+               <lb n="6"/>œÑœçŒºŒ≤ŒøŒΩ ·ΩÅ Œ†œÅŒøœ≤
+               <lb n="7" break="no"/>Œ¥œåŒ∫ŒπŒºŒøœ≤
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab>To the gods beneath the earth, Prosdokimos [made] this tomb for Prosdokimos of Tarsis, the best son who died at 18 years of age.</ab>
+         </div>
+      </body>
+   </text>
+</TEI>
+<!-- Theta kappa - transliteration of DM - suggestion of later date. also hederae -->
