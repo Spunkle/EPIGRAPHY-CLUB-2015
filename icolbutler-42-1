@@ -118,15 +118,15 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <div type="textpart" subtype="border">
             <div type="textpart" subtype="body">
                 <ab>
-                    <lb n="1"/><persName><name type="praenomen" key="Aulus"><expan><abbr><hi rend="ligature">Au</hi></abbr><ex>li</ex></expan></name> <name type="gentilicium" key="Pompeius">Pompei</name> <expan><abbr><hi rend="ligature">Au</hi></abbr><ex>li</ex></expan> <expan><abbr>l<ex>iberti</ex></abbr></expan> <name type="cognomen" key="Hilario">Hilari</name></persName><hi rend="small"><unclear reason="damage">o</unclear>o</hi>
-                    <lb n="2"/><persName><name type="gentilicium" key="Pompeia">Pompeia</name> <name type="cognomen" key="Egloge">Egloge</name></persName>
-                    <lb n="3"/><persName><name type="praenomen" key="Gnaeus"><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <name type="gentilicium" key="Pompeius">Pompe<hi rend="tall">i</hi></name> <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan><name type="cognomen" key="Hilario">Hilari</name></persName><hi rend="small">o</hi>
+                    <lb n="1"/><persName><name type="praenomen" key="Aulus"><expan><abbr><hi rend="ligature">Au</hi></abbr><ex>lus</ex></expan></name><g type="interpunct"/><name type="gentilicium" key="Pompeius">Pompei</name><g type="interpunct"/><name type="praenomen" key="Aulus"><expan><abbr><hi rend="ligature">Au</hi></abbr><ex>li</ex></expan></name><g type="interpunct"/> <expan><abbr>l<ex>iberti</ex></abbr></expan> <g type="interpunct"/><name type="cognomen" key="Hilario">Hilari</name></persName><hi rend="small"><unclear reason="damage">o</unclear></hi>
+                    <lb n="2"/><persName><name type="gentilicium" key="Pompeia">Pompeia</name><g type="interpunct"/><name type="cognomen" key="Egloge">Egloge</name></persName>
+                    <lb n="3"/><persName><name type="praenomen" key="Gnaeus"><expan><abbr>Cn</abbr><ex>aeus</ex></expan></name><g type="interpunct"/><name type="gentilicium" key="Pompeius">Pompe<hi rend="tall">i</hi></name><g type="interpunct"/> <expan><abbr>Cn</abbr><ex>aei</ex></expan><g type="interpunct"/> <expan><abbr>l</abbr><ex>iberti</ex></expan><g type="interpunct"/><name type="cognomen" key="Hilario">Hilari</name></persName><hi rend="small">o</hi>
                 </ab>
             </div>
             <div type="translation" xml:lang="en">
                 <ab>
                     <lb n="1"/>Aulus Pompeius Hilario freedman of Aulus 
-                    <lb n="2"/>Pomeia Egloge 
+                    <lb n="2"/>Pompeia Egloge 
                     <lb n="3"/>Gnaeus Pompeius Hilario, freedman of Gnaeus.
                 </ab>
             </div>
