@@ -6,7 +6,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
       <fileDesc>
          <titleStmt>
             <title>NY.NY.CU.Butl.L.440</title>
-            <editor>Stephen Anthony Levine</editor>
+            <editor>Stephen Anthony LaMonica</editor>
              </titleStmt>
          <publicationStmt>
             <authority>Columbia University</authority>
@@ -33,7 +33,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                   <idno>440</idno> </msIdentifier>
                <msContents>
                   <textLang mainLang="gr"/>
-                  <msItem class="funerary.epitaph">
+                  <msItem class="#funerary.other">
                      <p>Epitaph of Dekmos. Funerary naiskos</p>
                   </msItem>
                </msContents>
@@ -45,24 +45,24 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                               <seg type="material">marble</seg>
                               <seg type="form">Worn naiskos with missing features</seg>
                            </p>
-                              <dimensions type="#overall.surface" unit="cm">
+                              <dimensions type="surface" unit="cm">
                                  <width>41.3</width>
                                  <height>86.2</height>
                                  <depth>12.1</depth>
                               </dimensions>
-                           <dimensions type="#relief.surface" unit="cm">
+                           <dimensions type="relief.surface" unit="cm">
                               <width>37.2</width>
                               <height>58.2</height>
                               <depth>12.1</depth>
                            </dimensions>
                         </support>
-                        <condition ana="#fragment.single">
-                           <p>In good overall condition.  Missing the upper left cornice front and edge.  Surface is chipped in various places with small divets likely from lying face down.  The campus of the pediment is smooth and the relief is pockmarked with the aforementioned dings and some erosion of the features of the man and boy.  A crack on the face of the man goes from his scalp, under the eye and immediately under his nose on the right side to the left.  There is a stain in teh bottom right corner and traces of rust stains or possibly pigment at the abacus where the entablature meets the capitals, which seems to be damage from resting face down on the floor in storage.  Reddish marks under the edges of the relief arch may be a stain from the find spot.  Feet and top edge of the inscription plain worn away and the inscription surface itself is in poor condition compared to the rest of the object.</p>
+                        <condition ana="fragment.single">
+                           <p>In good overall condition.  Missing the upper left acroterion front and edge.  Surface is chipped in various places with small divets likely from lying face down.  The campus of the pediment is smooth and the relief is pockmarked with the aforementioned dings and some erosion of the features of the man and boy.  A shallow crack on the face of the man goes from his scalp, under the eye and immediately under his nose on the right side to the left.  There is a stain in teh bottom right corner and traces of rust stains or possibly pigment at the abacus where the entablature meets the capitals, which seems to be damage from resting face down on the floor in storage.  Reddish marks under the edges of the relief arch may be a stain from the find spot.  Feet of the figures and top edge of the inscription campus worn away and the inscription surface itself is in poor condition compared to the rest of the object.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="3">
-                           <p>Text lies below the relief.</p>
+                           <p>Text lies centered below the relief.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -70,8 +70,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                      <handNote>Hand size is relatively identical with most letters c. 1.5 cm tall and c. 2 cm wide except for Ρ in line three (height 2 cm) Ε in line one (width and height 1 cm).  Serifs decorate most letters and the crossbar of the alphas consists of two strokes the meet at an angle.  Kappa stems are sharp and straight.  Long serifs at the top and bottom of the rho stems.</handNote>
                   </handDesc>
                   <decoDesc>
-                     <decoNote ana="">
-                        <p/>
+                     <decoNote>The entire object is shaped like an archway, with inscribed columns from the bottom of the piece to the top of the arch itself.  Standardstructure of a funerary naiskos with a pediment and acroteria on top.  Small rosettes in each angle of the pediment.  There is an incised border between the edge of teh stone and the pediment.  Traces of decorative lines make their way around the top of the arch. The two columns are angled outward, have plain bases, and lack formal capitals.  Appears to be a standard Roman arch, with the impost carved as part of teh extrados and intrados/archivolt.  It lacks any voussoirs or a keystone, rather, it is decorated with an incised line and features that curve into the niche of the archway.  The interior campus of the pediment is carved into the stone and the rosettes raised from it.  The campus for the two figures is set deep into the archway.  The man is wearing a full length toga or himatian, which flows most of the way down his shins.  The wraps of the material cross his chest.  Most of the details of the folds remain, as do his face and hair.  The man is clean shaven.  He is missing his left hand.  Small drill holes are placed into both ears to a seemingly unusual depth.  He stands forward at an angle to his right with his body directly facing front.  Leaning on his left leg with the right at an angle and knee slightly bent.  If true to form, he had stubby legs.  Reminiscent of the statues of Hadrian in the same style.  The child or slave wears a short, sleeveless garment which ends just above the knees.  Its left arm is placed across its diaphragm.  Most of the detailing remains except for some wear on the feet and front of teh forehead and nose.  The folds of the garment are cut with precision and tied with a belt or piece of fabric.  Possibly two separate pieces i.e. top and a skirt bottom.  It looks up at the man, imitating the larger figure's posture. The Right leg is slightly bent at the knee and it leans to their right with its upper body.  The figure's head is turned to show us a profile and look at the elder male.  The hole in the small person's ear does not appear to have been made with the same tool as the man.
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -102,6 +101,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
       </encodingDesc>
       <revisionDesc>
          <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2015-03-30" who="SAL">Over the course of a few days, converted to new template and schema.  Added metadata, transcription, hand note, deco note, etc</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -110,11 +110,12 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
     </facsimile>
    <text>
       <body>
-         <div type="edition" xml:lang="gr" xml:space="preserve"><ab>
+         <div type="edition" xml:lang="gr" xml:space="preserve">
             <div type="textpart" subtype="body">
-               <lb/>δεκμο
-               <lb/>χρηστ
-               <lb/>χαιρε
+            <ab>
+               <lb n="1">ΔΕ<unclear reason="damage">Κ</unclear>Μ<gap reason="illegible" quantity="1" unit="character"/><supplied reason="damage" cert="low">Α</supplied><gap reason="lost" quantity="2" unit="character" precision="low"/>
+               <lb n="2">ΧΡΗΣΤ<gap reason="illegible" quantity="1" unit=-"character"/>
+               <lb n="3">ΧΑΙΡΕ
             </ab>
          </div>
          </div>
