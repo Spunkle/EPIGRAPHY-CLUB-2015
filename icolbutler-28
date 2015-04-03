@@ -53,14 +53,14 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="7">
-                           <p>Top line consists of small Œò¬∑ Œö¬∑ on opposite sides of the line, sharing the same margins as the main text field. Campus has clear distinguished margins from the sides of the slab. There is significant interlinear space between each line, and line breaks coincide with word breaks until the last two lines. The final line is shorter, smaller, and centered.</p>
+                           <p>Top line consists of small Θ· Κ· on opposite sides of the line, sharing the same margins as the main text field. Campus has clear distinguished margins from the sides of the slab. There is significant interlinear space between each line, and line breaks coincide with word breaks until the last two lines. The final line is shorter, smaller, and centered.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc ana="#impressed.inscribed.chiseled">
                      <handNote>
                         <p>
-                           Well-formed, consistent, and deep-cut lettering. Distinct serifs on several letters (note the tail on the Œî). Lunate sigma, w-shaped capital omega, and cursive mu. Small letters are not limited to the opening Œò¬∑ Œö¬∑: they also appear at the end of the third, fourth, and fifth lines. Presumably, this would have been to ensure that the words of each line were self-contained, but in line 5, the Œë is also small, nestled between two larger Œ§s.</p>
+                           Well-formed, consistent, and deep-cut lettering. Distinct serifs on several letters (note the tail on the Δ). Lunate sigma, w-shaped capital omega, and cursive mu. Small letters are not limited to the opening Θ· Κ·: they also appear at the end of the third, fourth, and fifth lines. Presumably, this would have been to ensure that the words of each line were self-contained, but in line 5, the Α is also small, nestled between two larger Τs.</p>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -121,13 +121,13 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
             <ab>
-               <lb n="1"/><expan><abbr>Œò</abbr><ex>ŒµŒø·øñœÇ</ex></expan> <expan><abbr>Œ∫</abbr><ex>Œ±œÑŒ±œáŒ∏ŒøŒΩŒØŒøŒπœÇ</ex></expan>
-               <lb n="2"/><persName><name key="Œ†œÅŒøœÉŒ¥ŒøŒ∫ŒØ"></name></persName> Œ†œÅŒøœ≤Œ¥ŒøŒ∫ŒØŒºœâŒπ
-               <lb n="3"/>Œ§Œ±œÅœ≤Œ∑Œπ Œ∏Œ±ŒΩœåŒΩœÑŒπ
-               <lb n="4"/>·ºîœÑœâŒΩ Œ¥ŒµŒ∫Œ±ŒøŒ∫œÑœé
-               <lb n="5"/>·ΩëŒπ·ø∂ œáœÅŒ∑œ≤œÑŒøœÑŒ¨œÑœâ
-               <lb n="6"/>œÑœçŒºŒ≤ŒøŒΩ ·ΩÅ Œ†œÅŒøœ≤
-               <lb n="7" break="no"/>Œ¥œåŒ∫ŒπŒºŒøœ≤
+               <lb n="1"/><expan><abbr>Θ</abbr><ex>εοῖς</ex></expan> <expan><abbr>κ</abbr><ex>αταχθονίοις</ex></expan>
+               <lb n="2"/><persName><name key="Προσδοκί"></name></persName> Προϲδοκίμωι
+               <lb n="3"/>Ταρϲηι θανόντι
+               <lb n="4"/>ἔτων δεκαοκτώ
+               <lb n="5"/>ὑιῶ χρηϲτοτάτω
+               <lb n="6"/>τύμβον ὁ Προϲ
+               <lb n="7" break="no"/>δόκιμοϲ
             </ab>
          </div>
          <div type="translation" xml:lang="en">
