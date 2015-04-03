@@ -1,1 +1,133 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>   
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.41</title>
+                <editor>Joe Sheppard</editor>
+                <editor>Erin Petrella</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-41</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.41">NY.NY.CU.Butl.L.41</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>41</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/>
+                        <msItem class="#funerary.epitaph">
+                            <p>Columbarium slab of Marcus Valerius Damophilus</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#tablet">
+                            <supportDesc ana="#stone.marble">
+                                <support>
+                                    <p>
+                                        <seg type="material">marble</seg> 
+                                        <seg type="form">columbarium slab</seg>
+                                    </p>
+                                    <dimensions type="surface" unit="cm">
+                                        <width>21</width>
+                                        <height>9</height>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p>Text bunched in the bottom left hand corner</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                            <handNote>Letters are shallow and uneven, especially curves. Missing crossbar on the 'A' of 'Damophilus'.
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote ana="border">
+                                <p></p>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>George N. Olcott claims this inscription came "from a columbarium on the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+                        <origin>
+                            <placeName ref="europe.italy.rome">Rome, Italy</placeName>
+                            <origPlace type="location">Via Salaria</origPlace>
+                            <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
+                        </origin>
+                        <provenance type="observed" notAfter="2011-09-01">
+                            <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates/>
+                    </additional>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#unpub"/>
+                        <biblScope type="item"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc> 
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change when="2013-02-20" who="JS">translated initial data to EpiDoc</change>
+            <change when="2015-03-20" who="EP">updated markup for cognomen</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url="NY.NY.CU.Butl.L.41.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" subtype="body">
+                <ab> 
+                    <lb n="1"/><persName><name type="praenomen" key="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name><g type="interpunct"/><name type="gentilicium" key="Valerius">Valerius</name>
+                    <lb n="2"/><name type="cognomen" key="Damophilus">Damop<supplied reason="omitted">h</supplied>ilus</name></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+            <ab>
+               <lb n="1"/>Marcus Valerius
+               <lb n="2"/>Damophilus
+            </ab>
+         </div>
+        </div> 
+        </body>
+    </text>
+</TEI>
 
