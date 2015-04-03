@@ -1,1 +1,135 @@
-
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>   
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.39</title>
+                <editor>Joe Sheppard</editor>
+                <editor>Erin Petrella</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-39</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.39">NY.NY.CU.Butl.L.39</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2012 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>39</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/>
+                        <msItem class="#funerary.epitaph">
+                            <p>Columbarium slab of Trebonia Euche</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#stone.limestone">
+                                <support>
+                                    <p>
+                                        <seg type="material">limestone</seg> 
+                                        <seg type="form">columbarium slab</seg>
+                                    </p>
+                                    <dimensions type="surface" unit="cm">
+                                        <width>21</width>
+                                        <height>10</height>
+                                        <depth>3</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p>Broken on the right side and the lower left corner.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p>If each line of text was centred (as seems likely), only one restored letter is needed for the right hand side.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                            <handNote>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote ana="border">
+                                <p>Incised line bordering the text, with a second line running along the top edge. Vegetal motif (vine and leaves) inside border at left.</p>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>George N. Olcott claims this inscription came "from a columbarium on the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+                        <origin>
+                            <placeName ref="europe.italy.rome">Rome, Italy</placeName>
+                            <origPlace type="location">Via Salaria</origPlace>
+                            <origDate notBefore="-0050" notAfter="0100">late first century BCE to first century CE</origDate>
+                        </origin>
+                        <provenance type="observed" notAfter="2011-09-01">
+                            <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates/>
+                    </additional>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#unpub"/>
+                        <biblScope type="item"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc> 
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change when="2013-02-20" who="JS">translated initial data to EpiDoc</change>
+            <change when="2014-06-05" who="EP">updated markup, checked measurements, added depth</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url="NY.NY.CU.Butl.L.39.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+            <div type="textpart" subtype="border">
+            </div>
+            <div type="textpart" subtype="body">
+                <ab> 
+                    <lb n="1"/><persName><name type="gentilicium" key="Trebonia">Treboni<supplied reason="lost" cert="high">a</supplied></name>
+                    <lb n="2"/><name type="cognomen" key="Euche">Euche</name></persName>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+            <ab>
+               <lb n="1"/>Treboni[a]
+               <lb n="2"/>Euche
+            </ab>
+         </div>
+        </div> 
+        </body>
+    </text>
+</TEI>
