@@ -71,7 +71,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                     <history>
                         <summary>In <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library, George N. Olcott records this inscription as coming "From the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
                         <origin>
-                            <placeName ref="europe.italy.rome">Rome, Italy</placeName>
+                            <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
                             <origPlace type="location">Via Salaria</origPlace>
                             <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
                         </origin>
