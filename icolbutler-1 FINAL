@@ -1,0 +1,139 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>NY.NY.CU.Butl.L.1</title>
+            <editor>Joe Sheppard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Columbia University</authority>
+            <idno type="filename">icolbutler-1</idno>
+            <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.1">NY.NY.CU.Butl.L.1</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/">
+                  <p>Copyright (c) 2015 by Columbia University</p>
+                  <p>This work is licensed under the Creative Commons Attribution 3.0 Unported,
+                     License. To view a copy of this license, visit
+                     http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative
+                     Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041,
+                     USA.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <region>NY</region>
+                  <settlement>NY</settlement>
+                  <institution>CU</institution>
+                  <repository>Butl</repository>
+                  <idno>1</idno>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem class="#funerary.epitaph">
+                     <p>Epitaph of Gaius Clatius Rufus</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#stone.marble">
+                        <support>
+                           <p>
+                              <seg type="material">marble</seg>
+                              <seg type="form">broken slab</seg>
+                           </p>
+                           <dimensions type="surface" unit="cm">
+                              <height>20.8</height>
+                              <width>11.8</width>
+                              <depth>2.5</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragments.contig">
+                           <p>Support is broken in two vertically down the middle and set into plaster within a wooden frame. There is no trace of the right or bottom edges. A sixth line is just visible, in very form of the top of a round letter, perhaps a C or O.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="6">
+                           <p>The text is aligned flush left, but since there is no trace of the right hand side of the stone, it is unclear whether or not the right margin is ragged.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc ana="#impressed.inscribed.chiseled">
+                  <handNote/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote ana="border">
+                        <p>An incised undulation motif borders the text just inside top and left edges of the support.</p>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary>George N. Olcott records purchasing this inscription among others "from Gaetano Cellini, a mason", and that they originally came from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
+                  <origin>
+                     <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
+                     <origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
+                     <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
+                  </origin>
+                  <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                     <ab>In <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library George N. Olcott mentions this inscription having the same provenance as those documented in <bibl><ptr target="#AJA_Olcott3"/>an earlier American Journal of Archaeology article</bibl>, published in 1899.</ab>
+                  </provenance>
+                  <provenance type="observed" subtype="seen" notAfter="2011-09-01">
+                     <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
+                  </provenance>
+                  </history>
+               <additional>
+                  <surrogates>
+                  </surrogates>
+               </additional>
+            </msDesc>
+            <listBibl>
+               <bibl>
+                  <ptr type="rest-of-bibl" target="#CIL_VI"/>
+                  <biblScope type="item">34842</biblScope>
+                  <ptr type="rest-of-bibl" target="#AJA_Olcott3"/>
+                  <biblScope type="item">230, no. 1</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include href="http://dev.stg.brown.edu/projects/usepigraphy/xml/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+         <change when="2013-01-26" who="JS">translated initial data into EpiDoc</change>
+         <change when="2015-03-27" who="JS">uploaded to github, standardized against template.</change>
+      </revisionDesc>
+   </teiHeader>
+  <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url="NY.NY.CU.Butl.L.1.jpg"/>
+        </surface>
+    </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="la" xml:space="preserve">
+            <ab><lb n="1"/>Dis Manibus s<supplied reason="lost" cert="high">acrum</supplied>
+                <lb n="2"/><persName><name type="praenomen" key="Gaius"><expan><abbr>C</abbr><ex>aio</ex></expan></name> <name type="gentilicium" key="Clatius">Clatio</name> <name type="cognomen" key="Rufus">Rufo</name></persName> co<supplied reason="lost" cert="low">niugi</supplied>
+                <lb n="3"/>carissimo suo <supplied reason="lost" cert="high">bene</supplied>
+                <lb n="4"/>merenti d<gap reason="lost" extent="8" unit="character" precision="medium"/>
+                <lb n="5"/><persName><name type="gentilicium" key="Aurelia">Au<unclear reason="damage" cert="high">rel</unclear><supplied reason="lost">ia</supplied></name></persName> <supplied reason="lost" cert="low">fecit</supplied><gap reason="lost" extent="5" unit="character" precision="low"/>
+                <lb n="6"/><choice><unclear>o</unclear><unclear>c</unclear></choice><gap reason="lost" extent="15" unit="character" precision="low"/><gap reason="lost" extent="unknown" unit="line"/>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <p>Sacred to the Shades of the Dead.</p><p>Aurel[ia? set this up] to Gaius Clatius Rufus, her dearest, well-deserving [husband]....</p>
+         </div>
+      </body>
+   </text>
+</TEI>
