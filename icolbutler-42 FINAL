@@ -1,0 +1,137 @@
+<?oxygen
+RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.rng" type="xml"
+?>   
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>NY.NY.CU.Butl.L.42</title>
+                <editor>Joe Sheppard</editor>
+                <editor>Erin Petrella</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Columbia University</authority>
+                <idno type="filename">icolbutler-42</idno>
+                <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.42">NY.NY.CU.Butl.L.42</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Copyright (c) 2015 by Columbia University</p>
+                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region>NY</region>
+                        <settlement>NY</settlement>
+                        <institution>CU</institution>
+                        <repository>Butl</repository>
+                        <idno>42</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <textLang mainLang="la"/>
+                        <msItem class="#funerary.epitaph">
+                            <p>Epitaph of Au. Pompeius Au.l. Hilarus and Cn. Pompeius Cn.l. Hilarus</p>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#stone.marble">
+                                <support>
+                                    <p>
+                                        <seg type="material">white marble</seg> 
+                                        <seg type="form">broken slab</seg>
+                                    </p>
+                                    <dimensions type="surface" unit="cm">
+                                        <width>38.5</width>
+                                        <height>14.0</height>
+                                        <depth>3.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p>A thick circular hole has been bored in the centre of the lefthand border. The stone is broken at right, inside the border, without loss of text, perhaps where a matching hole had been bored.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p>The text appears to have been centred, but it is unclear whether or not the mason ran out of room in the top and bottom lines.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc ana="#impressed.inscribed.chiseled">
+                            <handNote><p>N.b. AV ligatures to represent the praenomen Aulus throughout. The small circle at the end of the first and last lines is confusing, because the cognomen Hilario is attested; on balance this seems more likely to be decorative (cf. the border) rather than implying Hilario(nis). This follows the reading by Bodel and Tracy (1997), p. 156, i.e. "epitaph of Au. Pompeius Au.l. Hilarus (et al.)".
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote ana="border">
+                                <p>Text surrounded by incised line border. The thin rectangles that this border created to the left and right of the central panel with the text have been bisected across their middle, and incised with crossing oblique lines to create triangles. The top border has been incised with a long oblique line sloping downwards from the top corner to meet at the middle, where a small, shallow V has been incised above the I of Pompei.</p>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>In <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library George N. Olcott records this inscription as coming "From Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+                        <origin>
+                            <placeName ref="europe.italy.rome">Rome, Italy</placeName>
+                            <origPlace type="location">Via Salaria</origPlace>
+                            <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
+                        </origin>
+                <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                     <ab>This inscription is mentioned in <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> by George N. Olcott in Butler library, whose terminus ante quem is the 1899 edition of the American Journal of Archaeology.</ab>
+                  </provenance>
+                        <provenance type="observed" notAfter="2011-09-01">
+                            <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <surrogates/>
+                    </additional>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <ptr type="rest-of-bibl" target="#unpub"/>
+                        <biblScope type="item"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/usepigraphy/xml-templates/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for US Epigraphy controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2012-11-03T17:56:08.327-04:00" who="TRE">programmatically converted from inital spreadsheet</change>
+            <change when="2013-03-03" who="JS">coded initial data dump</change>
+            <change when="2015-03-20" who="EP">updated markup for text and transcription</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url="NY.NY.CU.Butl.L.42.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:lang="la" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><persName><name type="praenomen" key="Aulus"><expan><abbr><hi rend="ligature">Au</hi></abbr><ex>li</ex></expan></name> <g type="interpunct"/> <name type="gentilicium" key="Pompeius">Pompei</name> <g type="interpunct"/> <name type="praenomen" key="Aulus"><expan><abbr><hi rend="ligature">Au</hi></abbr><ex>li</ex></expan></name> <g type="interpunct"/> <expan><abbr>l<ex>iberti</ex></abbr></expan> <g type="interpunct"/> <name type="cognomen" key="Hilarus">Hilari</name></persName><hi rend="small"><unclear reason="damage">o</unclear></hi>
+                    <lb n="2"/><persName><name type="gentilicium" key="Pompeia">Pompeia</name> <g type="interpunct"/> <name type="cognomen" key="Egloge">Egloge</name></persName>
+                    <lb n="3"/><persName><name type="praenomen" key="Gnaeus"><expan><abbr>Cn</abbr><ex>aei</ex></expan></name> <g type="interpunct"/> <name type="gentilicium" key="Pompeius">Pompe<hi rend="tall">i</hi></name> <g type="interpunct"/> <expan><abbr>Cn</abbr><ex>aei</ex></expan> <g type="interpunct"/> <expan><abbr>l</abbr><ex>iberti</ex></expan> <g type="interpunct"/> <name type="cognomen" key="Hilarus">Hilari</name></persName> <hi rend="small">o</hi>
+                </ab>
+            </div>
+            <div type="translation" xml:lang="en">
+                <ab>
+                    <lb n="1"/>Belonging to Aulus Pompeius Hilarus, freedman of Aulus,
+                    <lb n="2"/>Pompeia Egloge (set this up),
+                    <lb n="3"/>(and) belonging to Gnaeus Pompeius Hilarus, freedman of Gnaeus.
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
+
