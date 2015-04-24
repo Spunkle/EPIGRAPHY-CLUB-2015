@@ -72,7 +72,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                   </decoDesc>
                </physDesc>
                <history>
-                  <summary>George N. Olcott records purchasing this inscription from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
+                  <summary>George N. Olcott records purchasing this inscription among others "from Gaetano Cellini, a mason", and that they originally came from the excavation of the Via Ostiensis necropolis near San Paolo fuori le Mura in Rome.</summary>
                   <origin>
                      <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
                      <origPlace type="necropolis" ref="http://pleiades.stoa.org/places/423052">necropolis of San Paolo fuori le Mura, Via Ostiense</origPlace>
