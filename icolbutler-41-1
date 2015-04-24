@@ -15,7 +15,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                 <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.41">NY.NY.CU.Butl.L.41</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <p>Copyright (c) 2012 by Columbia University</p>
+                        <p>Copyright (c) 2015 by Columbia University</p>
                         <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
                     </licence>
                 </availability>
@@ -54,12 +54,12 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="2">
-                                    <p>Text bunched in the bottom left hand corner</p>
+                                    <p>The text is bunched in the bottom left hand corner. The second line is indented approximately one letter's width more than the first line.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc ana="#impressed.inscribed.chiseled">
-                            <handNote>Letters are shallow and uneven, especially curves. Missing crossbar on the 'A' of 'Damophilus'.
+                            <handNote>Letters are shallow and uneven, especially curves. Missing crossbar on the A of Damopilus.
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -69,7 +69,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <summary>George N. Olcott claims this inscription came "from a columbarium on the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+                        <summary>In <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library, George N. Olcott records this inscription as coming "from a columbarium on the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
                         <origin>
                             <placeName ref="europe.italy.rome">Rome, Italy</placeName>
                             <origPlace type="location">Via Salaria</origPlace>
@@ -116,7 +116,7 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
             <div type="edition" xml:lang="la" xml:space="preserve">
             <div type="textpart" subtype="body">
                 <ab> 
-                    <lb n="1"/><persName><name type="praenomen" key="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name><g type="interpunct"/><name type="gentilicium" key="Valerius">Valerius</name>
+                    <lb n="1"/><persName><name type="praenomen" key="Marcus"><expan><abbr>M</abbr><ex>arcus</ex></expan></name> <g type="interpunct"/> <name type="gentilicium" key="Valerius">Valerius</name>
                     <lb n="2"/><name type="cognomen" key="Damophilus">Damop<supplied reason="omitted">h</supplied>ilus</name></persName>
                 </ab>
             </div>
