@@ -69,12 +69,15 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <summary>In <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library, George N. Olcott records this inscription as coming "from a columbarium on the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+                        <summary>In <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library, George N. Olcott records this inscription as coming "From the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
                         <origin>
-                            <placeName ref="europe.italy.rome">Rome, Italy</placeName>
+                            <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
                             <origPlace type="location">Via Salaria</origPlace>
                             <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
                         </origin>
+                        <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                     <ab>This inscription is mentioned in <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> by George N. Olcott in Butler library, whose terminus ante quem is the 1899 edition of the American Journal of Archaeology.</ab>
+                  </provenance>
                         <provenance type="observed" notAfter="2011-09-01">
                             <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
                         </provenance>
