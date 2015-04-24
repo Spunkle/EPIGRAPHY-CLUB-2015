@@ -15,8 +15,8 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                 <idno type="USEpigraphy" xml:id="NY.NY.CU.Butl.L.39">NY.NY.CU.Butl.L.39</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <p>Copyright (c) 2012 by Columbia University</p>
-                        <p>This work is licensed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+                        <p>Copyright (c) 2015 by Columbia University</p>
+                        <p>This work is licesed under the Creative Commons Attribution 3.0 Unported, License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
                     </licence>
                 </availability>
             </publicationStmt>
@@ -70,12 +70,15 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                         </decoDesc>
                     </physDesc>
                     <history>
-                        <summary>George N. Olcott claims this inscription came "from a columbarium on the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.34).</summary>
+                        <summary>In <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> in Butler library George N. Olcott records this inscription as coming "From a columbarium on the Via Salaria, as the preceding" (i.e. NY.NY.CU.Butl.L.38), and that this columbarium "now destroyed...(was) not far from the gate".</summary>
                         <origin>
-                            <placeName ref="europe.italy.rome">Rome, Italy</placeName>
+                            <placeName ref="http://pleiades.stoa.org/places/423025">Rome, Italy</placeName>
                             <origPlace type="location">Via Salaria</origPlace>
                             <origDate notBefore="-0050" notAfter="0100">late first century BCE to first century CE</origDate>
                         </origin>
+                        <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                     <ab>This inscription is mentioned in <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> by George N. Olcott in Butler library, whose terminus ante quem is the 1899 edition of the American Journal of Archaeology.</ab>
+                  </provenance>
                         <provenance type="observed" notAfter="2011-09-01">
                             <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
                         </provenance>
@@ -115,9 +118,6 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
     <text>
         <body>
             <div type="edition" xml:lang="la" xml:space="preserve">
-            <div type="textpart" subtype="border">
-            </div>
-            <div type="textpart" subtype="body">
                 <ab> 
                     <lb n="1"/><persName><name type="gentilicium" key="Trebonia">Treboni<supplied reason="lost" cert="high">a</supplied></name>
                     <lb n="2"/><name type="cognomen" key="Euche">Euche</name></persName>
@@ -128,7 +128,6 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                <lb n="1"/>Treboni[a]
                <lb n="2"/>Euche
             </ab>
-         </div>
         </div> 
         </body>
     </text>
