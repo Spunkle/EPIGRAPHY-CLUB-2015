@@ -76,6 +76,9 @@ RNGSchema="http://cds.library.brown.edu/projects/usepigraphy/schema/exp-epidoc.r
                             <origPlace type="location">Via Salaria</origPlace>
                             <origDate notBefore="0001" notAfter="0100">first century CE</origDate>
                         </origin>
+                <provenance type="found" subtype="first-recorded" notAfter="1899-12-31">
+                     <ab>This inscription is mentioned in <bibl><ptr target="Olcott_Catalogue"/>a handwritten catalogue</bibl> by George N. Olcott in Butler library, whose terminus ante quem is the 1899 edition of the American Journal of Archaeology.</ab>
+                  </provenance>
                         <provenance type="observed" notAfter="2011-09-01">
                             <ab>Identified in the Butler library collection not later than 1st September 2011.</ab>
                         </provenance>
